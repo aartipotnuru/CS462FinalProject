@@ -1,0 +1,28 @@
+{
+  "total_pairs": 36834,
+  "train": 29467,
+  "val": 3683,
+  "test": 3684,
+  "unique_ingredients": 5951,
+  "unique_substitutions": 5443,
+  "avg_subs_per_ingredient": 6.2,
+  "dietary_tags": [
+    "vegan",
+    "gluten_free",
+    "nut_free",
+    "dairy_free",
+    "keto"
+  ],
+  "ingredient_categories": [
+    "flour",
+    "other",
+    "fat_oil",
+    "dairy",
+    "sugar",
+    "egg",
+    "liquid",
+    "herb_spice",
+    "leavening",
+    "protein"
+  ]
+}
