@@ -660,7 +660,7 @@ almond,brazil nut,almond,brazil nut,"['vegan', 'gluten_free', 'dairy_free', 'ket
 almond,cashew,almond,cashew,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 almond,pistachio nut,almond,pistachio nut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 almond butter,almond,almond butter,almond,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
-almond butter,salt,almond butter,salt,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,herb_spice,2,4
+almond butter,salt,almond butter,salt,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,herb_spice,2,4
 almond butter,peanut butter,almond butter,peanut butter,"['gluten_free', 'keto']","['gluten_free', 'keto']",[],fat_oil,fat_oil,2,2
 almond butter,cashew butter,almond butter,cashew butter,"['gluten_free', 'keto']","['gluten_free', 'keto']",[],fat_oil,fat_oil,2,2
 almond extract,vanilla extract,almond extract,vanilla extract,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
@@ -675,9 +675,9 @@ almond liqueur,almond extract,almond liqueur,almond extract,"['vegan', 'gluten_f
 almond liqueur,hazelnut liqueur,almond liqueur,hazelnut liqueur,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 almond meal,almonds blanched,almond meal,almond blanched,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 almond meal,almond flour,almond meal,almond flour,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",[],other,flour,7,3
-almond milk,vanilla extract,almond milk,vanilla extract,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",dairy,other,0,7
-almond milk,water while blending,almond milk,water while blending,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",dairy,liquid,0,6
-almond milk,honey or maple syrup,almond milk,honey or maple syrup,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free']","['dairy_free', 'nut_free']",dairy,sugar,0,9
+almond milk,vanilla extract,almond milk,vanilla extract,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",dairy,other,0,7
+almond milk,water while blending,almond milk,water while blending,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",dairy,liquid,0,6
+almond milk,honey or maple syrup,almond milk,honey or maple syrup,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free']","['nut_free', 'dairy_free']",dairy,sugar,0,9
 almond milk,almonds blanched grind into a fine meal,almond milk,almond blanched grind into a fine meal,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 almond milk,rice milk,almond milk,rice milk,"['gluten_free', 'keto']","['gluten_free', 'nut_free']",['nut_free'],dairy,dairy,0,0
 almond oil,hazelnut oil,almond oil,hazelnut oil,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],fat_oil,fat_oil,2,2
@@ -1715,7 +1715,7 @@ bread,flour tortilla,bread,flour tortilla,"['vegan', 'nut_free', 'dairy_free']",
 bread,cheese,bread,cheese,"['vegan', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'keto']","['gluten_free', 'keto']",other,dairy,7,0
 bread,lettuce,bread,lettuce,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 bread,sweet potato,bread,sweet potato,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['gluten_free'],other,other,7,7
-bread and butter pickle,sweet gherkin,bread and butter pickle,sweet gherkin,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto', 'dairy_free']",fat_oil,other,2,7
+bread and butter pickle,sweet gherkin,bread and butter pickle,sweet gherkin,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto', 'dairy_free']",fat_oil,other,2,7
 bread dough,baked pizza crust,bread dough,baked pizza crust,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 bread flour,all purpose flour,bread flour,flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 bread knife,chef knife,bread knife,chef knife,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
@@ -2166,7 +2166,7 @@ cashew,pecan,cashew,pecan,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['ve
 cashew,water chestnut,cashew,water chestnut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,liquid,7,6
 cashew apple,mango,cashew apple,mango,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 cashew butter,cashew,cashew butter,cashew,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
-cashew butter,vegetable oil,cashew butter,vegetable oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+cashew butter,vegetable oil,cashew butter,vegetable oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 cashew flour,nut flour,cashew flour,nut flour,"['vegan', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",['nut_free'],flour,flour,3,3
 cassava,malanga,cassava,malanga,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cassava,taro,cassava,taro,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -2681,7 +2681,7 @@ cocoa,carob,cocoa,carob,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'ket
 cocoa butter,chocolate,cocoa butter,chocolate,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 coconut,brazil nut,coconut,brazil nut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 coconut,macadamia nut,coconut,macadamia nut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
-coconut butter,grated coconut,coconut butter,grated coconut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+coconut butter,grated coconut,coconut butter,grated coconut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 coconut cream,grated coconut,coconut cream,grated coconut,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 coconut cream,grated coconut squeeze,coconut cream,grated coconut squeeze,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 coconut cream,coconut milk not emulsified,coconut cream,coconut milk not emulsified,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
@@ -2974,9 +2974,9 @@ cream cheese,heavy cream,cream cheese,heavy cream,"['gluten_free', 'nut_free', '
 cream of coconut,coconut extract,cream of coconut,coconut extract,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 cream of coconut,milk sweetened condensed,cream of coconut,milk sweetened condensed,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 cream of rice,cream of wheat,cream of rice,cream of wheat,"['gluten_free', 'nut_free']","['nut_free', 'keto']",['keto'],dairy,dairy,0,0
-cream of rice,farina,cream of rice,farina,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+cream of rice,farina,cream of rice,farina,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 cream of wheat,cream of rice,cream of wheat,cream of rice,"['nut_free', 'keto']","['gluten_free', 'nut_free']",['gluten_free'],dairy,dairy,0,0
-cream of wheat,oatmeal,cream of wheat,oatmeal,"['nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free']",dairy,other,0,7
+cream of wheat,oatmeal,cream of wheat,oatmeal,"['nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'dairy_free']",dairy,other,0,7
 crema,sour cream,crema,sour cream,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
 crema,créme fraîche,crema,créme fraîche,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 crema danica,camembert,crema danica,camembert,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -3357,7 +3357,7 @@ egg,corn starch,egg,corn starch,"['gluten_free', 'nut_free', 'dairy_free', 'keto
 egg,ener g egg replacer,egg,ener g egg replacer,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],egg,egg,1,1
 egg,banana,egg,banana,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,other,1,7
 egg,milk 35,egg,milk,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],egg,dairy,1,0
-egg barley,spaetzle,egg barley,spaetzle,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",egg,other,1,7
+egg barley,spaetzle,egg barley,spaetzle,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",egg,other,1,7
 egg noodle,linguine,egg noodle,linguine,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,other,1,7
 egg noodle,fettuccine,egg noodle,fettuccine,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,other,1,7
 egg noodle,pasta ribbon,egg noodle,pasta ribbon,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",['vegan'],egg,other,1,7
@@ -4274,9 +4274,9 @@ hazelnut,walnut,hazelnut,walnut,"['vegan', 'gluten_free', 'dairy_free', 'keto']"
 hazelnut,pecan,hazelnut,pecan,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 hazelnut,brazil nut,hazelnut,brazil nut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 hazelnut butter,sugar,hazelnut butter,sugar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",fat_oil,sugar,2,9
-hazelnut butter,salt,hazelnut butter,salt,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,herb_spice,2,4
+hazelnut butter,salt,hazelnut butter,salt,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,herb_spice,2,4
 hazelnut butter,hazelnut,hazelnut butter,hazelnut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
-hazelnut butter,vegetable oil,hazelnut butter,vegetable oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+hazelnut butter,vegetable oil,hazelnut butter,vegetable oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 hazelnut butter,chocolate hazelnut spread,hazelnut butter,chocolate hazelnut spread,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 hazelnut flour,walnut flour,hazelnut flour,walnut flour,"['vegan', 'dairy_free']","['vegan', 'dairy_free']",[],flour,flour,3,3
 hazelnut flour,almond flour,hazelnut flour,almond flour,"['vegan', 'dairy_free']","['vegan', 'dairy_free']",[],flour,flour,3,3
@@ -5710,11 +5710,11 @@ novum,smoked salmon,novum,smoked salmon,"['vegan', 'gluten_free', 'nut_free', 'd
 nuoc cham,fish sauce,nuoc cham,fish sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 nuoc cham,chile paste to taste,nuoc cham,chile paste to taste,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 nuss schinken,westphalian ham,nuss schinken,westphalian ham,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-nut butter,salt,nut butter,salt,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,herb_spice,2,4
-nut butter,vegetable oil,nut butter,vegetable oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+nut butter,salt,nut butter,salt,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,herb_spice,2,4
+nut butter,vegetable oil,nut butter,vegetable oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 nut butter,sugar,nut butter,sugar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",fat_oil,sugar,2,9
-nut butter,nut,nut butter,nut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
-nut butter,hummu,nut butter,hummu,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+nut butter,nut,nut butter,nut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
+nut butter,hummu,nut butter,hummu,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 nut butter,cream cheese,nut butter,cream cheese,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'keto']",['nut_free'],fat_oil,dairy,2,0
 nut cracker,mallet,nut cracker,mallet,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 nut flour,nut meal,nut flour,nut meal,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
@@ -6091,9 +6091,9 @@ peanut,almond,peanut,almond,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['
 peanut butter,chocolate hazelnut spread,peanut butter,chocolate hazelnut spread,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 peanut butter,peanut,peanut butter,peanut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 peanut butter,peanut oil,peanut butter,peanut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,fat_oil,2,2
-peanut butter,sesame paste,peanut butter,sesame paste,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
-peanut butter,hummu,peanut butter,hummu,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
-peanut butter chip,chocolate chip,peanut butter chip,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,sesame paste,peanut butter,sesame paste,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
+peanut butter,hummu,peanut butter,hummu,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
+peanut butter chip,chocolate chip,peanut butter chip,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 peanut butter chip,butterscotch chip,peanut butter chip,butterscotch chip,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'keto']",['nut_free'],fat_oil,fat_oil,2,2
 peanut oil,corn oil,peanut oil,corn oil,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['nut_free'],fat_oil,fat_oil,2,2
 peanut oil,soybean oil,peanut oil,soybean oil,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],fat_oil,fat_oil,2,2
@@ -6952,7 +6952,7 @@ rice flour,spelt flour,rice flour,spelt flour,"['vegan', 'nut_free', 'dairy_free
 rice flour,potato flour,rice flour,potato flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 rice flour,millet flour,rice flour,millet flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 rice milk,almond milk,rice milk,almond milk,"['gluten_free', 'nut_free']","['gluten_free', 'keto']",['keto'],dairy,dairy,0,0
-rice milk,horchata,rice milk,horchata,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+rice milk,horchata,rice milk,horchata,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 rice milk,milk 35,rice milk,milk,"['gluten_free', 'nut_free']","['gluten_free', 'nut_free', 'keto']",['keto'],dairy,dairy,0,0
 rice milk,goat s milk,rice milk,goat s milk,"['gluten_free', 'nut_free']","['gluten_free', 'nut_free', 'keto']",['keto'],dairy,dairy,0,0
 rice milk,oat milk,rice milk,oat milk,"['gluten_free', 'nut_free']","['gluten_free', 'nut_free', 'keto']",['keto'],dairy,dairy,0,0
@@ -9654,7 +9654,7 @@ cream cheese,whole milk,cream cheese,whole milk,"['gluten_free', 'nut_free', 'ke
 kale leaf,collard green,kale leaf,collard green,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,fat_oil,7,2
 bacon,bacon bit,bacon,bacon bit,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 bacon,bacon piece,bacon,bacon piece,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,grape,peanut butter,grape,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,grape,peanut butter,grape,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 unsweetened applesauce,apple butter,unsweetened applesauce,apple butter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,fat_oil,7,2
 fresh parsley,fresh basil,parsley,basil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 lean ground beef,ground chicken,lean beef,chicken,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
@@ -9760,7 +9760,7 @@ bourbon,brandy,bourbon,brandy,"['vegan', 'gluten_free', 'nut_free', 'dairy_free'
 fresh basil leaf,spinach leaf,basil leaf,spinach leaf,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 ground turkey,ground pork,turkey,pork,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 zucchini,water chestnut,zucchini,water chestnut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
-creamy peanut butter,chocolate,creamy peanut butter,chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,chocolate,creamy peanut butter,chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 frozen pea,cut green bean,frozen pea,cut green bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 whipping cream,sugar free cool whip,whipping cream,sugar free cool whip,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,sugar,0,9
 green bean,corn,green bean,corn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -10079,7 +10079,7 @@ swiss cheese,crostini,swiss cheese,crostini,"['gluten_free', 'nut_free', 'keto']
 coconut milk,sugar,coconut milk,sugar,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,sugar,0,9
 red cabbage,white cabbage,red cabbage,white cabbage,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 papaya,guava,papaya,guava,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-sugar free fat free butterscotch pudding,vanilla,sugar free fat free butterscotch pudding,vanilla,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",fat_oil,other,2,7
+sugar free fat free butterscotch pudding,vanilla,sugar free fat free butterscotch pudding,vanilla,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",fat_oil,other,2,7
 blanched slivered almond,walnut,blanched slivered almond,walnut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 crushed tomato,spaghetti sauce,crushed tomato,spaghetti sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ground chuck,stew meat,chuck,stew meat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -10169,7 +10169,7 @@ corn oil,olive oil,corn oil,olive oil,"['vegan', 'gluten_free', 'nut_free', 'dai
 mushroom,lemon pepper,mushroom,lemon pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 cumin seed,caraway seed,cumin seed,caraway seed,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 fresh dill,fresh oregano,dill,oregano,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
-creamed corn,roll,creamed corn,roll,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+creamed corn,roll,creamed corn,roll,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 sour cream,french onion dip,sour cream,french onion dip,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 nutmeg,paprika,nutmeg,paprika,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 milk,white wine,milk,white wine,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,liquid,0,6
@@ -10589,7 +10589,7 @@ salt freshly ground black pepper,seasoning salt,salt freshly black pepper,season
 soy sauce,liquid,soy sauce,liquid,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 small shrimp,tiger shrimp,shrimp,tiger shrimp,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 chicken leg,pork leg,chicken leg,pork leg,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
-peanut butter,meat,peanut butter,meat,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,meat,peanut butter,meat,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['nut_free', 'dairy_free']",fat_oil,other,2,7
 granulated sugar,waffle,granulated sugar,waffle,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 pumpkin pie spice,fresh pumpkin,pumpkin pie spice,pumpkin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 seasoning salt,celery seed,seasoning salt,celery seed,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
@@ -10708,7 +10708,7 @@ sugar,glaze,sugar,glaze,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['
 flour,coconut,flour,coconut,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
 lemon juice,cream cheese frosting,lemon juice,cream cheese frosting,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],liquid,dairy,6,0
 boston lettuce,spinach,boston lettuce,spinach,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-creamy peanut butter,nutella,creamy peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,nutella,creamy peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 cocoa,dark brown sugar,cocoa,brown sugar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
 cocoa,chocolate almond bark,cocoa,chocolate almond bark,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 white sugar,unsweetened almond milk,white sugar,unsweetened almond milk,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'keto']",['keto'],sugar,dairy,9,0
@@ -11758,7 +11758,7 @@ cream of chicken soup,broccoli,cream of chicken soup,broccoli,"['gluten_free', '
 pearl barley,rice,pearl barley,rice,"['vegan', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['gluten_free'],other,other,7,7
 all purpose flour,almond flour,flour,almond flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",[],flour,flour,3,3
 milk,chocolate syrup,milk,chocolate syrup,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,sugar,0,9
-creamy peanut butter,grain,creamy peanut butter,grain,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,grain,creamy peanut butter,grain,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 cooked rice,chili bean,cooked rice,chili bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 mild italian sausage,mushroom,mild italian sausage,mushroom,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pork leg,pork chop,pork leg,pork chop,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
@@ -11885,7 +11885,7 @@ whipping cream,half and half cream,whipping cream,half and half cream,"['gluten_
 crushed pineapple in juice,frozen orange juice,crushed pineapple in juice,frozen orange juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 bacon,meat,bacon,meat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 semi sweet chocolate chip,syrup,semi sweet chocolate chip,syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
-crunchy peanut butter,pudding,crunchy peanut butter,pudding,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+crunchy peanut butter,pudding,crunchy peanut butter,pudding,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 sweet relish,dill relish,sweet relish,dill relish,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 vegetable shortening,applesauce,vegetable shortening,applesauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,other,2,7
 carrot,chicken broth,carrot,chicken broth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
@@ -11908,7 +11908,7 @@ milk,plain yogurt,milk,plain yogurt,"['gluten_free', 'nut_free', 'keto']","['glu
 fresh raspberry,blueberry,raspberry,blueberry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 sugar,green,sugar,green,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 jalapeno chile,cayenne pepper,jalapeno chile,cayenne pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
-chocolate peanut butter,chocolate chip,chocolate peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,chocolate chip,chocolate peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 fresh cilantro,carrot,cilantro,carrot,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 frozen spinach,celery,frozen spinach,celery,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 small elbow macaroni,penne pasta,elbow macaroni,penne pasta,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -12172,7 +12172,7 @@ white chocolate,semisweet chocolate,white chocolate,semisweet chocolate,"['vegan
 worcestershire sauce,vinegar,worcestershire sauce,vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 green chili powder,red bell pepper,green chili powder,red bell pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 sharp cheddar cheese,cookie,sharp cheddar cheese,cookie,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
-peanut butter,canola oil,peanut butter,canola oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+peanut butter,canola oil,peanut butter,canola oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 cranberry juice,liquor,cranberry juice,liquor,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 black bean,refried bean,black bean,refried bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 black bean salsa,enchilada sauce,black bean salsa,enchilada sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -13124,7 +13124,7 @@ grenadine,triple sec,grenadine,triple sec,"['vegan', 'gluten_free', 'nut_free', 
 sloe gin,vodka,sloe gin,vodka,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pork tenderloin,chicken tenderloin,pork tenderloin,chicken tenderloin,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 water,coconut,water,coconut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
-almond milk,batter,almond milk,batter,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",dairy,other,0,7
+almond milk,batter,almond milk,batter,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",dairy,other,0,7
 saltine,whole wheat cracker,saltine,whole wheat cracker,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 old fashioned oat,grain cereal,old fashioned oat,grain cereal,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 fresh ginger,ginger powder,ginger,ginger powder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -13275,7 +13275,7 @@ white rice,liquid,white rice,liquid,"['vegan', 'gluten_free', 'nut_free', 'dairy
 frozen shrimp,chicken strip,frozen shrimp,chicken strip,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 lemon zest,orange zest,lemon zest,orange zest,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pepper,garlic,pepper,garlic,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
-peanut butter,jar,peanut butter,jar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,jar,peanut butter,jar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 ham bone,smoked turkey leg,ham bone,smoked turkey leg,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 beef bouillon cube,chicken bouillon cube,beef bouillon cube,chicken bouillon cube,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 salt,broth,salt,broth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,liquid,4,6
@@ -13946,7 +13946,7 @@ processed cheese,parmesan cheese,processed cheese,parmesan cheese,"['gluten_free
 processed cheese,black pepper,processed cheese,black pepper,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,herb_spice,0,4
 apple juice,beef broth,apple juice,beef broth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 apple juice,apple juice concentrate,apple juice,apple juice concentrate,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
-miniature peanut butter cup,semisweet chocolate chip,miniature peanut butter cup,semisweet chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+miniature peanut butter cup,semisweet chocolate chip,miniature peanut butter cup,semisweet chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 vegetable oil,garlic oil,vegetable oil,garlic oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,fat_oil,2,2
 ham hock,cayenne pepper,ham hock,cayenne pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 soy sauce,fresh garlic,soy sauce,garlic,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -14155,7 +14155,7 @@ unpopped popcorn,microwave popcorn,unpopped popcorn,microwave popcorn,"['vegan',
 whole almond,mixed nut,whole almond,mixed nut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 egg white,whipping cream,egg white,whipping cream,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],egg,dairy,1,0
 vanilla instant pudding mix,chocolate pudding mix,vanilla instant pudding mix,chocolate pudding mix,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-smooth cashew butter,egg,smooth cashew butter,egg,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['dairy_free', 'nut_free']",fat_oil,egg,2,1
+smooth cashew butter,egg,smooth cashew butter,egg,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['nut_free', 'dairy_free']",fat_oil,egg,2,1
 non dairy chocolate chip,sultana,non dairy chocolate chip,sultana,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 non dairy chocolate chip,dark chocolate chip,non dairy chocolate chip,chocolate chip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 sugar,spelt flour,sugar,spelt flour,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],sugar,flour,9,3
@@ -14436,7 +14436,7 @@ parmesan cheese,monterey jack cheese,parmesan cheese,monterey jack cheese,"['glu
 water,rice wine vinegar,water,rice wine vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],liquid,liquid,6,6
 four cheese mexican blend cheese,pepper,four cheese mexican blend cheese,pepper,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,herb_spice,0,4
 macaroni,other pasta,macaroni,other pasta,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
-whole wheat egg noodle,long grain rice,whole wheat egg noodle,long grain rice,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free']",egg,other,1,7
+whole wheat egg noodle,long grain rice,whole wheat egg noodle,long grain rice,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'vegan']",egg,other,1,7
 nut,brownie,nut,brownie,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 mushroom,green onion,mushroom,green onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 macadamia nut,cashew nut,macadamia nut,cashew nut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -14458,7 +14458,7 @@ xanthan gum,guar gum,xanthan gum,guar gum,"['vegan', 'gluten_free', 'nut_free', 
 fish,fillet,fish,fillet,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 wasabi paste,mustard paste,wasabi paste,mustard paste,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pea pod,boiling water,pea pod,boiling water,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,fat_oil,7,2
-buttered bread crumb,ritz cracker crumb,buttered bread crumb,ritz cracker crumb,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto', 'dairy_free']",fat_oil,other,2,7
+buttered bread crumb,ritz cracker crumb,buttered bread crumb,ritz cracker crumb,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto', 'dairy_free']",fat_oil,other,2,7
 onion,cooked bacon,onion,cooked bacon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 green pepper,jalapeno pepper,green pepper,jalapeno pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 pumpkin puree,squash puree,pumpkin puree,squash puree,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -14639,7 +14639,7 @@ self raising flour,wheat flour,self raising flour,wheat flour,"['vegan', 'nut_fr
 corn,carrot,corn,carrot,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 cabbage,coleslaw,cabbage,coleslaw,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 yellow squash,eggplant,yellow squash,eggplant,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,egg,7,1
-chocolate peanut butter,vanilla,chocolate peanut butter,vanilla,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,vanilla,chocolate peanut butter,vanilla,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 ziti pasta,potato,ziti pasta,potato,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['gluten_free'],other,other,7,7
 refrigerated buttermilk biscuit,whole wheat flour,refrigerated buttermilk biscuit,whole wheat flour,"['gluten_free', 'nut_free', 'keto']","['vegan', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",fat_oil,flour,2,3
 crushed tomato,diced tomato,crushed tomato,diced tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -14780,7 +14780,7 @@ french fried onion,bacon bit,french fried onion,bacon bit,"['vegan', 'gluten_fre
 mozzarella cheese,tasty cheese,mozzarella cheese,tasty cheese,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 apple,raisin,apple,raisin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 coconut,white chocolate chip,coconut,white chocolate chip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter chip,strawberry jam,peanut butter chip,strawberry jam,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter chip,strawberry jam,peanut butter chip,strawberry jam,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 panko breadcrumb,wheat,panko breadcrumb,wheat,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 orange sherbet,vanilla ice cream,orange sherbet,vanilla ice cream,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
 sour cream,soured milk,sour cream,soured milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
@@ -14829,7 +14829,7 @@ cinnamon,spice,cinnamon,spice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free'
 butter,fresh jalapeno,butter,jalapeno,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 cornmeal,cornstarch,cornmeal,cornstarch,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,flour,7,3
 lemon mayonnaise,unflavored gelatin,lemon mayonnaise,unflavored gelatin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-honey roasted peanut,pretzel,honey roasted peanut,pretzel,"['gluten_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'nut_free']",sugar,other,9,7
+honey roasted peanut,pretzel,honey roasted peanut,pretzel,"['gluten_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'keto']",sugar,other,9,7
 parmesan cheese,white cheddar cheese,parmesan cheese,white cheddar cheese,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 black pepper,soup,black pepper,soup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 french bread,whole wheat bread,french bread,whole wheat bread,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -15194,10 +15194,10 @@ corn flake,italian breadcrumb,corn flake,italian breadcrumb,"['vegan', 'gluten_f
 minced ginger,light soy sauce,ginger,soy sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 tabasco sauce,white vinegar,tabasco sauce,white vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 raisin,mini chocolate chip,raisin,mini chocolate chip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,nutella,peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,nutella,peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 light corn syrup,sugar syrup,corn syrup,sugar syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],sugar,sugar,9,9
 raisin,white chocolate chip,raisin,white chocolate chip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,fat,peanut butter,fat,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,fat,peanut butter,fat,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 butter,spice,butter,spice,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 onion,cilantro,onion,cilantro,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 lima bean,chickpea,lima bean,chickpea,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -16433,7 +16433,7 @@ coconut,poppy seed,coconut,poppy seed,"['vegan', 'gluten_free', 'nut_free', 'dai
 potato,garnet yam,potato,garnet yam,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 cheese tortellini,gnocchi,cheese tortellini,gnocchi,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 cheese,hot sauce,cheese,hot sauce,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
-peanut butter,oil,peanut butter,oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+peanut butter,oil,peanut butter,oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 light rye bread,kaiser roll,rye bread,kaiser roll,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 red pepper,cayenne pepper,red pepper,cayenne pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 mild curry powder,dijon mustard,mild curry powder,dijon mustard,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -16805,7 +16805,7 @@ powdered sugar,cinnamon sugar,powdered sugar,cinnamon sugar,"['vegan', 'gluten_f
 green peppercorn,caper,green peppercorn,caper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],herb_spice,other,4,7
 celery,peanut butter,celery,peanut butter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",[],other,fat_oil,7,2
 creamy peanut butter,almond butter,creamy peanut butter,almond butter,"['gluten_free', 'keto']","['gluten_free', 'keto']",[],fat_oil,fat_oil,2,2
-creamy peanut butter,chocolate frosting,creamy peanut butter,chocolate frosting,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,chocolate frosting,creamy peanut butter,chocolate frosting,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 lemon pepper,dried dill weed,lemon pepper,dill weed,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 tomato soup,ketchup,tomato soup,ketchup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 flour tortilla,lettuce,flour tortilla,lettuce,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
@@ -16893,7 +16893,7 @@ kidney bean,green pea,kidney bean,green pea,"['vegan', 'gluten_free', 'nut_free'
 hot water,gravy,hot water,gravy,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 peanut butter,crunchy peanut butter,peanut butter,crunchy peanut butter,"['gluten_free', 'keto']","['gluten_free', 'keto']",[],fat_oil,fat_oil,2,2
 oatmeal,breadcrumb,oatmeal,breadcrumb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
-creamed honey,yoghurt,creamed honey,yoghurt,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+creamed honey,yoghurt,creamed honey,yoghurt,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 boneless lamb shoulder,beef shoulder,boneless lamb shoulder,beef shoulder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 liquid smoke,worcestershire sauce,liquid smoke,worcestershire sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 kosher salt,herb,kosher salt,herb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
@@ -17052,7 +17052,7 @@ white vinegar,chutney,white vinegar,chutney,"['vegan', 'gluten_free', 'nut_free'
 butter,walnut oil,butter,walnut oil,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,fat_oil,2,2
 green bell pepper,poblano pepper,green bell pepper,poblano pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 sugar,flour,sugar,flour,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],sugar,flour,9,3
-peanut butter,dark chocolate,peanut butter,chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,dark chocolate,peanut butter,chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 white corn,hominy,white corn,hominy,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 nut,dried tart cherry,nut,tart cherry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 tartar sauce,cream cheese,tartar sauce,cream cheese,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
@@ -17402,7 +17402,7 @@ flank steak,chuck roast,flank steak,chuck roast,"['vegan', 'gluten_free', 'nut_f
 brown rice,quinoa,brown rice,quinoa,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 baking potato,sweet potato,baking potato,sweet potato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
 green pepper,thai pepper,green pepper,thai pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
-peanut butter,fruit,peanut butter,fruit,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,fruit,peanut butter,fruit,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 boiling water,broth,boiling water,broth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,liquid,2,6
 broccoli,green pepper,broccoli,green pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 sugar,bread flour,sugar,bread flour,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],sugar,flour,9,3
@@ -17434,7 +17434,7 @@ seasoning salt,garlic salt,seasoning salt,garlic salt,"['vegan', 'gluten_free', 
 seasoning salt,cajun seasoning,seasoning salt,cajun seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 buttermilk,oleo,buttermilk,oleo,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 cinnamon,sour cream,cinnamon,sour cream,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
-peanut butter chip,white chocolate chip,peanut butter chip,white chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter chip,white chocolate chip,peanut butter chip,white chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 brown sugar,pure maple syrup,brown sugar,pure maple syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],sugar,sugar,9,9
 boneless beef chuck,beef shank,boneless beef chuck,beef shank,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 baking powder,cracker,baking powder,cracker,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],leavening,other,5,7
@@ -17602,7 +17602,7 @@ cilantro,hot banana pepper,cilantro,hot banana pepper,"['vegan', 'gluten_free', 
 oat flour,coconut flour,oat flour,coconut flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 egg noodle,elbow macaroni,egg noodle,elbow macaroni,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,other,1,7
 nutella,cupcake,nutella,cupcake,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter chip,jar,peanut butter chip,jar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter chip,jar,peanut butter chip,jar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 amaretto liqueur,almond extract,amaretto liqueur,almond extract,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 amaretto liqueur,coconut rum,amaretto liqueur,coconut rum,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 vermicelli,buckwheat noodle,vermicelli,buckwheat noodle,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -18452,7 +18452,7 @@ chicken broth,goose,chicken broth,goose,"['gluten_free', 'nut_free', 'dairy_free
 long grain rice,cream of chicken soup,long grain rice,cream of chicken soup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'keto']",['keto'],other,dairy,7,0
 cashew nut,pine nut,cashew nut,pine nut,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 ground coriander,ground cardamom,coriander,cardamom,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-creamy peanut butter,fat,creamy peanut butter,fat,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,fat,creamy peanut butter,fat,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 granulated sugar,low fat sour cream,granulated sugar,low fat sour cream,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'keto']",['keto'],sugar,dairy,9,0
 chocolate peanut butter,caramel ice cream topping,chocolate peanut butter,caramel ice cream topping,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'keto']",['nut_free'],fat_oil,dairy,2,0
 potato,peach,potato,peach,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
@@ -18520,7 +18520,7 @@ leek,red onion,leek,red onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free'
 water,dry sherry,water,dry sherry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 beer,homemade chicken stock,beer,homemade chicken stock,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 jalapeno pepper,dried onion,jalapeno pepper,onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
-peanut butter,olive oil,peanut butter,olive oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+peanut butter,olive oil,peanut butter,olive oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 unsweetened applesauce,vegetable oil,unsweetened applesauce,vegetable oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,fat_oil,7,2
 turkey ham,bacon,turkey ham,bacon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 garlic clove,thin spaghetti,garlic clove,thin spaghetti,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -18782,7 +18782,7 @@ cooked rice,biscuit,cooked rice,biscuit,"['vegan', 'gluten_free', 'nut_free', 'd
 chicken broth with roasted garlic,jar,chicken broth with roasted garlic,jar,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],liquid,other,6,7
 dried oregano,chili powder,oregano,chili powder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 mayonnaise,cottage cheese,mayonnaise,cottage cheese,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
-crunchy peanut butter,cereal,crunchy peanut butter,cereal,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+crunchy peanut butter,cereal,crunchy peanut butter,cereal,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 ravioli,macaroni,ravioli,macaroni,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 garlic salt,soft margarine,garlic salt,soft margarine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,fat_oil,4,2
 strawberry jam,raspberry preserve,strawberry jam,raspberry preserve,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -19779,7 +19779,7 @@ orgeat syrup,orange,orgeat syrup,orange,"['vegan', 'gluten_free', 'nut_free', 'd
 chili powder,rotel,chili powder,rotel,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 creamy peanut butter,peanut butter cookie,creamy peanut butter,peanut butter cookie,"['gluten_free', 'keto']","['gluten_free', 'keto']",[],fat_oil,fat_oil,2,2
 brown sugar,almond meal,brown sugar,almond meal,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
-creamy peanut butter,caramel,creamy peanut butter,caramel,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,caramel,creamy peanut butter,caramel,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 cod fish fillet,shrimp,cod fish fillet,shrimp,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,other,8,7
 refrigerated buttermilk biscuit,croissant,refrigerated buttermilk biscuit,croissant,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 black olive,green pepper,black olive,green pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
@@ -19996,8 +19996,8 @@ bourbon,orange juice,bourbon,orange juice,"['vegan', 'gluten_free', 'nut_free', 
 vanilla extract,syrup,vanilla extract,syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
 extra virgin olive oil,avocado oil,extra virgin olive oil,avocado oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,fat_oil,2,2
 tabasco sauce,frank,tabasco sauce,frank,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-almond butter,fresh raspberry,almond butter,raspberry,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
-broiler fryer chicken,white wine,broiler fryer chicken,white wine,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",fat_oil,liquid,2,6
+almond butter,fresh raspberry,almond butter,raspberry,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
+broiler fryer chicken,white wine,broiler fryer chicken,white wine,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",fat_oil,liquid,2,6
 candy corn,cookie,candy corn,cookie,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 uncooked rice,season salt,uncooked rice,season salt,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,herb_spice,7,4
 wheat bran,cereal,wheat bran,cereal,"['vegan', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['gluten_free'],other,other,7,7
@@ -20248,7 +20248,7 @@ baking soda,coconut oil,baking soda,coconut oil,"['vegan', 'gluten_free', 'nut_f
 celery,water,celery,water,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 dried lentil,red bean,lentil,red bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 olive oil,batter,olive oil,batter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,other,2,7
-miniature peanut butter cup,toothpick,miniature peanut butter cup,toothpick,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+miniature peanut butter cup,toothpick,miniature peanut butter cup,toothpick,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 heavy cream,evaporated skim milk,heavy cream,evaporated skim milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 lean hamburger,meat,lean hamburger,meat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cooked chicken,tofu,cooked chicken,tofu,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,protein,8,8
@@ -20264,7 +20264,7 @@ honey mustard,grainy mustard,honey mustard,grainy mustard,"['gluten_free', 'nut_
 black olive,artichoke,black olive,artichoke,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 chicken broth,low fat yogurt,chicken broth,low fat yogurt,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],liquid,dairy,6,0
 rice noodle,bean sprout,rice noodle,bean sprout,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
-creamed honey,chai tea,creamed honey,chai tea,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+creamed honey,chai tea,creamed honey,chai tea,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 short rib of beef,beef stew meat,short rib of beef,beef stew meat,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 chili paste with garlic,hot sauce,chili paste with garlic,hot sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 raisin,red grape,raisin,red grape,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -20300,7 +20300,7 @@ elbow macaroni,shell macaroni,elbow macaroni,shell macaroni,"['vegan', 'gluten_f
 garbanzo flour,rice flour,garbanzo flour,rice flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 natural style peanut butter,sunflower seed butter,natural style peanut butter,sunflower seed butter,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'keto']",['nut_free'],fat_oil,fat_oil,2,2
 garbanzo flour,sorghum flour,garbanzo flour,sorghum flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
-natural style peanut butter,chocolate chip,natural style peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+natural style peanut butter,chocolate chip,natural style peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 zucchini,elbow macaroni,zucchini,elbow macaroni,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 red food coloring,green food coloring,red food coloring,green food coloring,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 strawberry,nutella,strawberry,nutella,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -20344,7 +20344,7 @@ chuck roast,round steak,chuck roast,round steak,"['vegan', 'gluten_free', 'nut_f
 brown rice flour,oat flour,brown rice flour,oat flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 solid pack pumpkin,sunflower seed,solid pack pumpkin,sunflower seed,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 egg,white sugar,egg,white sugar,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['vegan'],egg,sugar,1,9
-creamed honey,mushroom,creamed honey,mushroom,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+creamed honey,mushroom,creamed honey,mushroom,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 low fat plain yogurt,silken tofu,low fat plain yogurt,silken tofu,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,protein,0,8
 alfalfa sprout,romaine lettuce,alfalfa sprout,romaine lettuce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 black pepper,pepsi,black pepper,pepsi,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
@@ -20446,7 +20446,7 @@ sage,sage sausage,sage,sage sausage,"['vegan', 'gluten_free', 'nut_free', 'dairy
 kidney bean,seitan,kidney bean,seitan,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 kidney bean,lentil,kidney bean,lentil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 white wine,stock,white wine,stock,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
-butter pecan cake mix,chocolate,butter pecan cake mix,chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+butter pecan cake mix,chocolate,butter pecan cake mix,chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 wild rice,egg noodle,wild rice,egg noodle,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,egg,7,1
 cream of mushroom soup,cream cheese,cream of mushroom soup,cream cheese,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 corn tortilla,wrap,corn tortilla,wrap,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
@@ -20932,10 +20932,10 @@ ham,hot dog,ham,hot dog,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'ket
 salt and pepper,spice,salt and pepper,spice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 vegetable oil,flax seed oil,vegetable oil,flax seed oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,fat_oil,2,2
 semi sweet chocolate chip,shortening,semi sweet chocolate chip,shortening,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,fat_oil,7,2
-rice milk,vanilla,rice milk,vanilla,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+rice milk,vanilla,rice milk,vanilla,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 oil,pumpkin,oil,pumpkin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,other,2,7
 rice milk,hemp milk,rice milk,hemp milk,"['gluten_free', 'nut_free']","['gluten_free', 'nut_free', 'keto']",['keto'],dairy,dairy,0,0
-buttered bread crumb,saltine crumb,buttered bread crumb,saltine crumb,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto', 'dairy_free']",fat_oil,herb_spice,2,4
+buttered bread crumb,saltine crumb,buttered bread crumb,saltine crumb,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto', 'dairy_free']",fat_oil,herb_spice,2,4
 lamb shoulder,pork shoulder,lamb shoulder,pork shoulder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 heavy cream,lemon,heavy cream,lemon,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 brown sugar,frosting,brown sugar,frosting,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
@@ -21016,7 +21016,7 @@ butter,brownie,butter,brownie,"['gluten_free', 'nut_free', 'keto']","['vegan', '
 unsalted dry roasted peanut,cilantro,dry roasted peanut,cilantro,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 instant coffee crystal,espresso granule,instant coffee crystal,espresso granule,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 reduced sodium cream of chicken soup,mushroom soup,reduced sodium cream of chicken soup,mushroom soup,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
-peanut butter,cookie,peanut butter,cookie,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,cookie,peanut butter,cookie,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 lemon thyme,basil,lemon thyme,basil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 raw sugar,agave nectar,raw sugar,agave nectar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 solid white tuna,salmon,solid white tuna,salmon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -21548,7 +21548,7 @@ sweetened condensed milk,chai tea,sweetened condensed milk,chai tea,"['gluten_fr
 egg white,garlic infused olive oil,egg white,garlic infused olive oil,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,fat_oil,1,2
 dried cranberry,fruit,cranberry,fruit,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 italian seasoned breadcrumb,almond meal,italian seasoned breadcrumb,almond meal,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
-broiler fryer chicken,noodle,broiler fryer chicken,noodle,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",fat_oil,other,2,7
+broiler fryer chicken,noodle,broiler fryer chicken,noodle,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",fat_oil,other,2,7
 rum,tequila,rum,tequila,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 granulated sugar,frozen mixed berry,granulated sugar,frozen mixed berry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 frozen green bean,corn,frozen green bean,corn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -21607,7 +21607,7 @@ ham,vegetarian sausage,ham,vegetarian sausage,"['vegan', 'gluten_free', 'nut_fre
 dried garbanzo bean,habanero,garbanzo bean,habanero,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 leek,potato,leek,potato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
 rice vermicelli,rice noodle,rice vermicelli,rice noodle,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
-chocolate peanut butter,ganache,chocolate peanut butter,ganache,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,ganache,chocolate peanut butter,ganache,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 confectioners sugar,reduced fat peanut butter,confectioner sugar,reduced fat peanut butter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'keto']",['keto'],sugar,fat_oil,9,2
 butter,jar,butter,jar,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 graham cracker crumb,digestive biscuit,graham cracker crumb,digestive biscuit,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -21849,7 +21849,7 @@ garlic powder with parsley,italian seasoning mix,garlic powder with parsley,ital
 paper towel,coffee,paper towel,coffee,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 paper towel,cheesecloth,paper towel,cheesecloth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
 brown and serve sausage,meatball,brown and serve sausage,meatball,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,white chocolate chip,peanut butter,white chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,white chocolate chip,peanut butter,white chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 bourbon,rum,bourbon,rum,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 frozen green pea,corn,frozen green pea,corn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
 pepperoni,pizza topping,pepperoni,pizza topping,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
@@ -21943,7 +21943,7 @@ tomato,italian stewed tomato,tomato,italian stewed tomato,"['vegan', 'gluten_fre
 hot chili paste,chili paste with garlic,hot chili paste,chili paste with garlic,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 danish blue cheese,feta cheese,danish blue cheese,feta cheese,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 cake flour,cream cheese frosting,cake flour,cream cheese frosting,"['vegan', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'keto']","['gluten_free', 'keto']",flour,dairy,3,0
-bread and butter pickle,dill pickle,bread and butter pickle,dill pickle,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto', 'dairy_free']",fat_oil,other,2,7
+bread and butter pickle,dill pickle,bread and butter pickle,dill pickle,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto', 'dairy_free']",fat_oil,other,2,7
 flounder fillet,red snapper fillet,flounder fillet,red snapper fillet,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ginger paste,fresh ginger,ginger paste,ginger,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cannellini bean,refried bean,cannellini bean,refried bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -22206,7 +22206,7 @@ pinto bean,ranch style bean,pinto bean,ranch style bean,"['vegan', 'gluten_free'
 mung dal,toor dal,mung dal,toor dal,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 honey,powdered sugar,honey,powdered sugar,"['gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['vegan'],sugar,sugar,9,9
 potato,tater tot,potato,tater tot,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
-peanut butter,chicken breast tender,peanut butter,chicken breast tender,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['dairy_free', 'nut_free']",fat_oil,protein,2,8
+peanut butter,chicken breast tender,peanut butter,chicken breast tender,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['nut_free', 'dairy_free']",fat_oil,protein,2,8
 garlic,spice,garlic,spice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 beer,pinot grigio wine,beer,pinot grigio wine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 cooked rice,bun,cooked rice,bun,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
@@ -22464,7 +22464,7 @@ parsnip,rutabaga,parsnip,rutabaga,"['vegan', 'gluten_free', 'nut_free', 'dairy_f
 beef broth,tomato juice,beef broth,tomato juice,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],liquid,liquid,6,6
 roma tomato,plum tomato,rom tomato,plum tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 dry white wine,rice wine,dry white wine,rice wine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],liquid,liquid,6,6
-peanut butter,graham cracker,peanut butter,graham cracker,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,graham cracker,peanut butter,graham cracker,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 refrigerated buttermilk biscuit,roll,refrigerated buttermilk biscuit,roll,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 marsala,red wine,marsala,red wine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 cider vinegar,white distilled vinegar,cider vinegar,white distilled vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -22479,7 +22479,7 @@ cherry tomato,red pepper flake,cherry tomato,red pepper flake,"['vegan', 'gluten
 horseradish,miracle whip,horseradish,miracle whip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 lemon juice,margarine,lemon juice,margarine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,fat_oil,6,2
 pork sparerib,fat,pork sparerib,fat,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
-miniature peanut butter cup,banana,miniature peanut butter cup,banana,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+miniature peanut butter cup,banana,miniature peanut butter cup,banana,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 peppermint extract,almond extract,peppermint extract,almond extract,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 beef steak,pork tenderloin,beef steak,pork tenderloin,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 whole green onion,white onion,whole green onion,white onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -22978,7 +22978,7 @@ corn flake,raisin,corn flake,raisin,"['vegan', 'gluten_free', 'nut_free', 'dairy
 whole grain bread,rice,whole grain bread,rice,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['gluten_free'],other,other,7,7
 flour,instant potato flake,flour,instant potato flake,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['gluten_free'],flour,other,3,7
 everclear alcohol,vodka,everclear alcohol,vodka,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-sugar free fat free butterscotch pudding,banana,sugar free fat free butterscotch pudding,banana,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",fat_oil,other,2,7
+sugar free fat free butterscotch pudding,banana,sugar free fat free butterscotch pudding,banana,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",fat_oil,other,2,7
 fat free sweetened condensed milk,evaporated milk,fat free sweetened condensed milk,evaporated milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 low fat sour cream,nonfat plain yogurt,low fat sour cream,nonfat plain yogurt,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 almond extract,orange oil,almond extract,orange oil,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,fat_oil,7,2
@@ -23573,7 +23573,7 @@ ground beef,hot italian sausage,beef,hot italian sausage,"['gluten_free', 'nut_f
 mustard,sweet paprika,mustard,sweet paprika,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 fat free buttermilk,water,fat free buttermilk,water,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,liquid,2,6
 lettuce leaf,croissant,lettuce leaf,croissant,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-creamy peanut butter,chocolate chip,creamy peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,chocolate chip,creamy peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 hot pepper sauce,old bay seasoning,hot pepper sauce,old bay seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 rice,bread,rice,bread,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
 bacon,salami,bacon,salami,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -23750,7 +23750,7 @@ eggplant,fresh tomato,eggplant,tomato,"['gluten_free', 'nut_free', 'dairy_free',
 yellow pepper,yellow squash,yellow pepper,yellow squash,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 skim milk,blackberry,skim milk,blackberry,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 banana liqueur,hazelnut,banana liqueur,hazelnut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
-hazelnut syrup,kahlua,hazelnut syrup,kahlua,"['vegan', 'gluten_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['keto', 'nut_free']",sugar,other,9,7
+hazelnut syrup,kahlua,hazelnut syrup,kahlua,"['vegan', 'gluten_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['nut_free', 'keto']",sugar,other,9,7
 ice cream,meringue,ice cream,meringue,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 bay leaf,seasoning,bay leaf,seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 mushroom,hot pepper,mushroom,hot pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
@@ -23802,7 +23802,7 @@ powdered sugar,frozen sliced strawberry,powdered sugar,frozen strawberry,"['vega
 angel food cake,cool whip,angel food cake,cool whip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ketchup,crushed tomato,ketchup,crushed tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 whole nutmeg,allspice,whole nutmeg,allspice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-broiler fryer chicken,tomato,broiler fryer chicken,tomato,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",fat_oil,other,2,7
+broiler fryer chicken,tomato,broiler fryer chicken,tomato,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",fat_oil,other,2,7
 walnut,coconut flake,walnut,coconut flake,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 frozen puff pastry,ravioli,frozen puff pastry,ravioli,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 grape leaf,peppercorn,grape leaf,peppercorn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,herb_spice,7,4
@@ -23889,7 +23889,7 @@ egg noodle,lasagna noodle,egg noodle,lasagna noodle,"['gluten_free', 'nut_free',
 garlic clove,paprika,garlic clove,paprika,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 bread flour,cookie,bread flour,cookie,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
 pasta,udon noodle,pasta,udon noodle,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
-creamy peanut butter,chow mein noodle,creamy peanut butter,chow mein noodle,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,chow mein noodle,creamy peanut butter,chow mein noodle,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 pork,shrimp,pork,shrimp,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,other,8,7
 egg,scone,egg,scone,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,other,1,7
 boneless skinless chicken,chicken breast,boneless skinless chicken,chicken breast,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
@@ -23953,7 +23953,7 @@ green cabbage,fish,green cabbage,fish,"['vegan', 'gluten_free', 'nut_free', 'dai
 fresh lemon rind,lemon peel,lemon rind,lemon peel,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 breadcrumb,cottage cheese,breadcrumb,cottage cheese,"['vegan', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'keto']","['gluten_free', 'keto']",other,dairy,7,0
 agave nectar,rice syrup,agave nectar,rice syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
-peanut butter,egg,peanut butter,egg,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['dairy_free', 'nut_free']",fat_oil,egg,2,1
+peanut butter,egg,peanut butter,egg,"['gluten_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['nut_free', 'dairy_free']",fat_oil,egg,2,1
 curry powder,coriander powder,curry powder,coriander powder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 brown lentil,masoor dal,brown lentil,masoor dal,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 water,pork roast,water,pork roast,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,protein,6,8
@@ -24075,8 +24075,8 @@ veal scallop,chicken,veal scallop,chicken,"['vegan', 'gluten_free', 'nut_free', 
 salt pepper,jalapeno pepper,salt pepper,jalapeno pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 vegetable salt,white vinegar,vegetable salt,white vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 brown sugar,old fashioned oat,brown sugar,old fashioned oat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
-chocolate peanut butter,carob chip,chocolate peanut butter,carob chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
-peanut butter,coconut oil,peanut butter,coconut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+chocolate peanut butter,carob chip,chocolate peanut butter,carob chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
+peanut butter,coconut oil,peanut butter,coconut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 nutmeg,sour cream,nutmeg,sour cream,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
 boneless skinless chicken breast,boneless chicken breast,boneless skinless chicken breast,boneless chicken breast,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 plain yogurt,soy sour cream,plain yogurt,soy sour cream,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
@@ -24148,7 +24148,7 @@ elbow macaroni,spaghetti noodle,elbow macaroni,spaghetti noodle,"['vegan', 'glut
 maraschino juice,liqueur,maraschino juice,liqueur,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 oyster cracker,ritz cracker,oyster cracker,ritz cracker,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 fat free egg substitute,parmesan cheese,fat free egg substitute,parmesan cheese,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],egg,dairy,1,0
-broiler fryer chicken,cumin,broiler fryer chicken,cumin,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",fat_oil,herb_spice,2,4
+broiler fryer chicken,cumin,broiler fryer chicken,cumin,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",fat_oil,herb_spice,2,4
 hazelnut syrup,almond extract,hazelnut syrup,almond extract,"['vegan', 'gluten_free', 'dairy_free']","['vegan', 'gluten_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 pernod,ouzo,pernod,ouzo,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pine nut,brown rice,pine nut,brown rice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -24336,7 +24336,7 @@ italian seasoning,chili powder,italian seasoning,chili powder,"['vegan', 'gluten
 celery salt,canola oil,celery salt,canola oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,fat_oil,4,2
 creamed corn,corn kernel,creamed corn,corn kernel,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,other,0,7
 cayenne pepper,black sesame seed,cayenne pepper,black sesame seed,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
-peanut butter,black bean paste,peanut butter,black bean paste,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,black bean paste,peanut butter,black bean paste,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 seasoned rice vinegar,white wine vinegar,seasoned rice vinegar,white wine vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,liquid,7,6
 lemon yogurt,vanilla yogurt,lemon yogurt,vanilla yogurt,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 skinless chicken piece,whole boneless skinless chicken breast,skinless chicken piece,whole boneless skinless chicken breast,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
@@ -24685,7 +24685,7 @@ whole wheat pastry flour,all purpose flour,whole wheat pastry flour,flour,"['veg
 broccoli,asparagu,broccoli,asparagu,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 boneless chicken,ham,boneless chicken,ham,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 pepper,american cheese,pepper,american cheese,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],herb_spice,dairy,4,0
-peanut butter,shortening,peanut butter,shortening,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+peanut butter,shortening,peanut butter,shortening,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 plain nonfat yogurt,soured milk,plain nonfat yogurt,soured milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 brown sugar,brown rice syrup,brown sugar,brown rice syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],sugar,sugar,9,9
 frozen chopped spinach,canned mushroom,frozen spinach,canned mushroom,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -24872,7 +24872,7 @@ onion,jalapeno pepper,onion,jalapeno pepper,"['vegan', 'gluten_free', 'nut_free'
 salt,cayenne pepper,salt,cayenne pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 blanched slivered almond,sunflower seed,blanched slivered almond,sunflower seed,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 chicken stock,chicken base,chicken stock,chicken base,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,protein,6,8
-peanut butter,mayonnaise,peanut butter,mayonnaise,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,mayonnaise,peanut butter,mayonnaise,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 broccoli floret,broccolini,broccoli floret,broccolini,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 dried chinese mushroom,button mushroom,chinese mushroom,button mushroom,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 jalapeno chile,ginger,jalapeno chile,ginger,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -25045,7 +25045,7 @@ corn tortilla,olive,corn tortilla,olive,"['vegan', 'gluten_free', 'nut_free', 'd
 picante sauce,meat,picante sauce,meat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 scotch bonnet pepper,serrano pepper,scotch bonnet pepper,serrano pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 fresh spinach,olive oil,spinach,olive oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,fat_oil,7,2
-buckwheat honey,tortilla,buckwheat honey,tortilla,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",sugar,other,9,7
+buckwheat honey,tortilla,buckwheat honey,tortilla,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",sugar,other,9,7
 cream of tartar,white wine vinegar,cream of tartar,white wine vinegar,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,liquid,0,6
 cinnamon,roll,cinnamon,roll,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 boiled ham,grilled chicken breast,boiled ham,grilled chicken breast,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,protein,2,8
@@ -25406,7 +25406,7 @@ powdered sugar,fat free cream cheese,powdered sugar,fat free cream cheese,"['veg
 tequila,margarita mix,tequila,margarita mix,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ground beef,white bean,beef,white bean,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 italian sausage,frozen meatball,italian sausage,frozen meatball,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-natural style peanut butter,ground flax seed,natural style peanut butter,flax seed,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+natural style peanut butter,ground flax seed,natural style peanut butter,flax seed,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 sharp cheddar cheese,low fat mozzarella,sharp cheddar cheese,low fat mozzarella,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 milk,cereal,milk,cereal,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 pumpkin,mashed banana,pumpkin,mashed banana,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -25502,7 +25502,7 @@ green olive,red onion,green olive,red onion,"['vegan', 'gluten_free', 'nut_free'
 salmon,breadcrumb,salmon,breadcrumb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
 macaroni,shell noodle,macaroni,shell noodle,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 fish sauce,dashi,fish sauce,dashi,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
-breaded chicken breast,garlic salt,breaded chicken breast,garlic salt,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,herb_spice,8,4
+breaded chicken breast,garlic salt,breaded chicken breast,garlic salt,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,herb_spice,8,4
 corn chip,crouton,corn chip,crouton,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 seasoned bread crumb,oat bran,seasoned bread crumb,oat bran,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 italian parsley,fresh chive,italian parsley,chive,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -25884,7 +25884,7 @@ chicken part,turkey part,chicken part,turkey part,"['gluten_free', 'nut_free', '
 tomato sauce,green pepper,tomato sauce,green pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 kidney bean,diced onion,kidney bean,diced onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 coriander seed,cumin seed,coriander seed,cumin seed,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
-breaded chicken breast,cracker crumb,breaded chicken breast,cracker crumb,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,other,8,7
+breaded chicken breast,cracker crumb,breaded chicken breast,cracker crumb,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,other,8,7
 country ham,bacon,country ham,bacon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 frozen pearl onion,stewed tomato,frozen pearl onion,stewed tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 dry salami,canadian bacon,dry salami,canadian bacon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -25892,7 +25892,7 @@ rosemary,fresh thyme sprig,rosemary,thyme sprig,"['vegan', 'gluten_free', 'nut_f
 green chili pepper,red chile,green chili pepper,red chile,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 strawberry,syrup,strawberry,syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
 cream,canned tomato,cream,canned tomato,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
-chunky peanut butter,cold water,chunky peanut butter,cold water,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,liquid,2,6
+chunky peanut butter,cold water,chunky peanut butter,cold water,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,liquid,2,6
 beer,vegetable stock,beer,vegetable stock,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 raisin bran cereal,fruit,raisin bran cereal,fruit,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 all purpose flour,xanthan gum,flour,xanthan gum,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
@@ -26047,7 +26047,7 @@ whole pecan,slivered almond,whole pecan,slivered almond,"['vegan', 'gluten_free'
 passata,chopped tomato,passata,tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 oat flour,gluten free flour,oat flour,gluten free flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 tomato paste,marinara sauce,tomato paste,marinara sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-creamed honey,grainy mustard,creamed honey,grainy mustard,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+creamed honey,grainy mustard,creamed honey,grainy mustard,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 milk,brewed coffee,milk,brewed coffee,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 cayenne pepper,chili oil,cayenne pepper,chili oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,fat_oil,4,2
 cream of mushroom soup,beef,cream of mushroom soup,beef,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",['dairy_free'],dairy,protein,0,8
@@ -26139,7 +26139,7 @@ barbecue sauce,hoisin sauce,barbecue sauce,hoisin sauce,"['vegan', 'gluten_free'
 penne pasta,cauliflower,penne pasta,cauliflower,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 soba noodle,cooked white rice,soba noodle,cooked white rice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
 red wine,merlot,red wine,merlot,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
-cream of potato soup,garlic powder,cream of potato soup,garlic powder,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+cream of potato soup,garlic powder,cream of potato soup,garlic powder,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 salt,bacon,salt,bacon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 chicken breast tender,vegetable,chicken breast tender,vegetable,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 duck fat,butter,duck fat,butter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,fat_oil,7,2
@@ -26179,7 +26179,7 @@ red hot sauce,blue cheese dressing,red hot sauce,blue cheese dressing,"['vegan',
 green apple,fuji apple,green apple,fuji apple,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 creme fraiche,cream cheese,creme fraiche,cream cheese,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],other,dairy,7,0
 orange juice,almond milk,orange juice,almond milk,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",[],liquid,dairy,6,0
-smooth peanut butter,dipping sauce,smooth peanut butter,dipping sauce,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+smooth peanut butter,dipping sauce,smooth peanut butter,dipping sauce,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 cod fish fillet,salmon fillet,cod fish fillet,salmon fillet,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 table cream,sour cream,table cream,sour cream,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 ground chuck,pork,chuck,pork,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
@@ -26194,7 +26194,7 @@ cooked chicken,cream of celery soup,cooked chicken,cream of celery soup,"['glute
 low fat vanilla yogurt,mashed banana,low fat vanilla yogurt,mashed banana,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 dark unsweetened cocoa,chocolate bar,unsweetened cocoa,chocolate bar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ketchup,maple syrup,ketchup,maple syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
-crunchy peanut butter,nutella,crunchy peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+crunchy peanut butter,nutella,crunchy peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 vanilla,almond milk,vanilla,almond milk,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",[],other,dairy,7,0
 salt,butter,salt,butter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],herb_spice,fat_oil,4,2
 dill pickle,cucumber,dill pickle,cucumber,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -26500,7 +26500,7 @@ red pepper pod,scallion,red pepper pod,scallion,"['vegan', 'gluten_free', 'nut_f
 fresh ginger,lemon juice,ginger,lemon juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 ground cinnamon,candy,cinnamon,candy,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 milk chocolate candy bar,chocolate bar,milk chocolate candy bar,chocolate bar,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
-fryer chicken,mushroom,fryer chicken,mushroom,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",protein,other,8,7
+fryer chicken,mushroom,fryer chicken,mushroom,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",protein,other,8,7
 celery,mixed vegetable,celery,mixed vegetable,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 peanut oil,extra virgin olive oil,peanut oil,extra virgin olive oil,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],fat_oil,fat_oil,2,2
 bell pepper,corn,bell pepper,corn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],herb_spice,other,4,7
@@ -26863,7 +26863,7 @@ roasting chicken,vegetable broth,roasting chicken,vegetable broth,"['gluten_free
 diced tomato with juice,canned corn,diced tomato with juice,canned corn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],liquid,other,6,7
 boneless beef sirloin,beef mince,boneless beef sirloin,beef mince,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 red wine,vinegar,red wine,vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
-reduced fat peanut butter,oil,reduced fat peanut butter,oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+reduced fat peanut butter,oil,reduced fat peanut butter,oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 milk,seasoning,milk,seasoning,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 teff,spice,teff,spice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 orange juice,lemon peel,orange juice,lemon peel,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
@@ -27827,7 +27827,7 @@ minute white rice,instant brown rice,minute white rice,instant brown rice,"['veg
 onion soup mix,vegetable,onion soup mix,vegetable,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cayenne,smoked paprika,cayenne,smoked paprika,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 butterscotch chip,semi sweet chocolate chip,butterscotch chip,semi sweet chocolate chip,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
-crunchy peanut butter,chocolate chip,crunchy peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+crunchy peanut butter,chocolate chip,crunchy peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 lowfat margarine,butter,lowfat margarine,butter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],fat_oil,fat_oil,2,2
 low fat milk,cashew milk,low fat milk,cashew milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'keto']",[],dairy,dairy,0,0
 cayenne,tea,cayenne,tea,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -27981,7 +27981,7 @@ grape tomato,green onion,grape tomato,green onion,"['vegan', 'gluten_free', 'nut
 fresh basil leaf,fresh oregano,basil leaf,oregano,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 v8 vegetable juice,water,v8 vegetable juice,water,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 pear half in natural juice,peach juice,pear half in natural juice,peach juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
-rice milk,apple juice,rice milk,apple juice,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,liquid,0,6
+rice milk,apple juice,rice milk,apple juice,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,liquid,0,6
 kaffir lime leaf,lemon juice,kaffir lime leaf,lemon juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 chicken stock powder,chicken broth,chicken stock powder,chicken broth,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 albacore tuna,chunk chicken,albacore tuna,chunk chicken,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
@@ -28142,7 +28142,7 @@ vegetable juice,meat,vegetable juice,meat,"['vegan', 'gluten_free', 'nut_free', 
 raisin,wheat germ,raisin,wheat germ,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 peanut butter,walnut,peanut butter,walnut,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 tomato puree,heinz ketchup,tomato puree,heinz ketchup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-breaded chicken breast,crouton,breaded chicken breast,crouton,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,other,8,7
+breaded chicken breast,crouton,breaded chicken breast,crouton,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,other,8,7
 ground cardamom,curry powder,cardamom,curry powder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 fish fillet,boneless chicken,fish fillet,boneless chicken,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,protein,8,8
 prepared polenta,cornbread,prepared polenta,cornbread,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -28327,7 +28327,7 @@ pitted ripe olive,ground turkey,pitted ripe olive,turkey,"['vegan', 'gluten_free
 water,vermouth,water,vermouth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 dry marsala,white wine,dry marsala,white wine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 sparerib,breakfast sausage,sparerib,breakfast sausage,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,strawberry jam,peanut butter,strawberry jam,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,strawberry jam,peanut butter,strawberry jam,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 cream,potato,cream,potato,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,other,0,7
 cooking sherry,dry sherry,cooking sherry,dry sherry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 heavy whipping cream,canned milk,heavy whipping cream,canned milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
@@ -28668,7 +28668,7 @@ fresh mushroom,green bell pepper,mushroom,green bell pepper,"['vegan', 'gluten_f
 beef stew meat,steak,beef stew meat,steak,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 beef stew meat,turkey sausage,beef stew meat,turkey sausage,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 celery rib,broccoli,celery rib,broccoli,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-chocolate peanut butter,dove,chocolate peanut butter,dove,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,dove,chocolate peanut butter,dove,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 white wine,vinaigrette,white wine,vinaigrette,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 taco cheese,old cheddar cheese,taco cheese,old cheddar cheese,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 ground turmeric,cumin,turmeric,cumin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
@@ -28993,7 +28993,7 @@ pecan,breadcrumb,pecan,breadcrumb,"['vegan', 'gluten_free', 'dairy_free', 'keto'
 sweet apple cider,apple juice,sweet apple cider,apple juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 warm water,beef stock,warm water,beef stock,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 grape tomato,bell pepper,grape tomato,bell pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
-broiler fryer chicken,turkey,broiler fryer chicken,turkey,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free']",fat_oil,other,2,7
+broiler fryer chicken,turkey,broiler fryer chicken,turkey,"['nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan']",fat_oil,other,2,7
 cinnamon,cocoa,cinnamon,cocoa,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 italian stewed tomato,italian seasoning,italian stewed tomato,italian seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 celery,mexicorn,celery,mexicorn,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -29169,7 +29169,7 @@ spaghetti,cheese tortellini,spaghetti,cheese tortellini,"['vegan', 'gluten_free'
 chicken bouillon cube,canned red bean,chicken bouillon cube,canned red bean,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 amaretto,frangelico,amaretto,frangelico,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 hot italian turkey sausage,ground turkey,hot italian turkey sausage,turkey,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,chocolate chip,peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,chocolate chip,peanut butter,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 cream,cornflour,cream,cornflour,"['gluten_free', 'nut_free', 'keto']","['vegan', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,flour,0,3
 garlic clove,spaghetti sauce,garlic clove,spaghetti sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 water,cooked brown rice,water,cooked brown rice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],liquid,other,6,7
@@ -29353,7 +29353,7 @@ warm water,potato water,warm water,potato water,"['vegan', 'gluten_free', 'nut_f
 vegetable oil,raspberry,vegetable oil,raspberry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,other,2,7
 kirsch,rum,kirsch,rum,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 extra lean ground beef,ground lamb,extra lean beef,lamb,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
-chocolate peanut butter,cookie,chocolate peanut butter,cookie,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,cookie,chocolate peanut butter,cookie,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 lemon rind,orange zest,lemon rind,orange zest,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 vanilla ice cream,whipped cream,vanilla ice cream,whipped cream,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 chicken broth,pork tenderloin,chicken broth,pork tenderloin,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,protein,6,8
@@ -30492,7 +30492,7 @@ orange marmalade,orange juice,orange marmalade,orange juice,"['vegan', 'gluten_f
 white bean,pine nut,white bean,pine nut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 blue cheese,gluten,blue cheese,gluten,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 buckwheat honey,white bread flour,buckwheat honey,white bread flour,"['nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",['vegan'],sugar,flour,9,3
-peanut butter chip,mint chip,peanut butter chip,mint chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter chip,mint chip,peanut butter chip,mint chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 egg,oil,egg,oil,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],egg,fat_oil,1,2
 cocoa,instant chocolate pudding mix,cocoa,instant chocolate pudding mix,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 dill pickle,honey,dill pickle,honey,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free']",[],other,sugar,7,9
@@ -30543,7 +30543,7 @@ barley,barley flour,barley,barley flour,"['vegan', 'nut_free', 'dairy_free', 'ke
 fine cracker crumb,breadcrumb,fine cracker crumb,breadcrumb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
 milk chocolate chip,bread pudding,milk chocolate chip,bread pudding,"['gluten_free', 'nut_free', 'keto']","['vegan', 'nut_free', 'dairy_free']","['vegan', 'dairy_free']",dairy,other,0,7
 fontina,cooked bacon,fontina,cooked bacon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-chocolate peanut butter,white chocolate,chocolate peanut butter,white chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,white chocolate,chocolate peanut butter,white chocolate,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 bread,raisin,bread,raisin,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 tart apple,green onion,tart apple,green onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 corn kernel,breadcrumb,corn kernel,breadcrumb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -31053,7 +31053,7 @@ leaf oregano,breakfast sausage,leaf oregano,breakfast sausage,"['vegan', 'gluten
 cooked white rice,dry breadcrumb,cooked white rice,dry breadcrumb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],other,other,7,7
 whipping cream,double cream,whipping cream,double cream,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 apple juice,apple cider vinegar,apple juice,apple cider vinegar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
-unsweetened vanilla almond milk,ice cube,unsweetened vanilla almond milk,ice cube,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",dairy,other,0,7
+unsweetened vanilla almond milk,ice cube,unsweetened vanilla almond milk,ice cube,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",dairy,other,0,7
 dried split pea,frozen pea,split pea,frozen pea,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 flour,cake,flour,cake,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
 olive oil,diced tomato,olive oil,diced tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,other,2,7
@@ -31084,7 +31084,7 @@ breadcrumb,graham cracker crumb,breadcrumb,graham cracker crumb,"['vegan', 'nut_
 allspice,creole seasoning,allspice,creole seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 raisin,asian pear,raisin,asian pear,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ground chicken,bacon piece,chicken,bacon piece,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
-creamy peanut butter,brownie,creamy peanut butter,brownie,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,brownie,creamy peanut butter,brownie,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 white pepper,gemelli pasta,white pepper,gemelli pasta,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],herb_spice,other,4,7
 bell pepper,chipotle hot sauce,bell pepper,chipotle hot sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 low fat cottage cheese,milk,low fat cottage cheese,milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
@@ -31260,7 +31260,7 @@ plum tomato,dried herb,plum tomato,herb,"['vegan', 'gluten_free', 'nut_free', 'd
 celery,chayote,celery,chayote,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 biscuit mix,pancake batter,biscuit mix,pancake batter,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 green chili,green chili pepper,green chili,green chili pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
-breaded chicken breast,french fried onion,breaded chicken breast,french fried onion,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,other,8,7
+breaded chicken breast,french fried onion,breaded chicken breast,french fried onion,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,other,8,7
 hickory liquid smoke,tabasco sauce,hickory liquid smoke,tabasco sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 minute rice,jasmine rice,minute rice,jasmine rice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
 water,maple syrup,water,maple syrup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],liquid,sugar,6,9
@@ -31578,7 +31578,7 @@ cilantro,ghee,cilantro,ghee,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 
 shortening,corn oil margarine,shortening,corn oil margarine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],fat_oil,fat_oil,2,2
 tomato,bean,tomato,bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 ground lamb,ground meat,lamb,meat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-coconut butter,coconut oil,coconut butter,coconut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+coconut butter,coconut oil,coconut butter,coconut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 water,ground black pepper,water,black pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,herb_spice,6,4
 sea salt,steak spice,sea salt,steak spice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 seafood cocktail sauce,salsa,seafood cocktail sauce,salsa,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -31639,7 +31639,7 @@ instant dashi stock,fish stock,instant dashi stock,fish stock,"['vegan', 'gluten
 polenta,bun,polenta,bun,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 fresh lemon rind,extract,lemon rind,extract,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cornmeal,cookie,cornmeal,cookie,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
-rice milk,water,rice milk,water,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,liquid,0,6
+rice milk,water,rice milk,water,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,liquid,0,6
 seasoning salt,soul seasoning,seasoning salt,soul seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 ground black pepper,habanero pepper,black pepper,habanero pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,herb_spice,4,4
 butter flavor crisco,parkay margarine,butter flavor crisco,parkay margarine,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,fat_oil,2,2
@@ -31864,7 +31864,7 @@ apricot preserve,honey mustard sauce,apricot preserve,honey mustard sauce,"['veg
 ritz cracker,onion,ritz cracker,onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 rolled oat,soy protein powder,rolled oat,soy protein powder,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 chicken bouillon granule,fish stock,chicken bouillon granule,fish stock,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],protein,liquid,8,6
-rice milk,muesli,rice milk,muesli,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'keto']",dairy,other,0,7
+rice milk,muesli,rice milk,muesli,"['gluten_free', 'nut_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto', 'dairy_free']",dairy,other,0,7
 sour cream,salad dressing,sour cream,salad dressing,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 fettuccine pasta,spaghetti squash,fettuccine pasta,spaghetti squash,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 orecchiette,elbow macaroni,orecchiette,elbow macaroni,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -32078,7 +32078,7 @@ pumpkin pie spice,salt and pepper,pumpkin pie spice,salt and pepper,"['vegan', '
 unsweetened cocoa powder,walnut,unsweetened cocoa powder,walnut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 coffee flavored liqueur,black coffee,coffee flavored liqueur,black coffee,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 coarse grain mustard,brown mustard,coarse grain mustard,brown mustard,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-buckwheat honey,oat,buckwheat honey,oat,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",sugar,other,9,7
+buckwheat honey,oat,buckwheat honey,oat,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",sugar,other,9,7
 honey,tea,honey,tea,"['gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'keto']",sugar,other,9,7
 turkey breast,chicken strip,turkey breast,chicken strip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 mixed glace fruit,dried cranberry,mixed glace fruit,cranberry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -32432,7 +32432,7 @@ prosciutto,streaky bacon,prosciutto,streaky bacon,"['vegan', 'gluten_free', 'nut
 strawberry syrup,grenadine,strawberry syrup,grenadine,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 bacon,smoked chicken,bacon,smoked chicken,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 chocolate chip,pecan piece,chocolate chip,pecan piece,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
-peanut butter,caramel,peanut butter,caramel,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+peanut butter,caramel,peanut butter,caramel,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 water,beef bouillon cube,water,beef bouillon cube,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,protein,6,8
 water,lime juice,water,lime juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 fresh dill,relish,dill,relish,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -32460,7 +32460,7 @@ mint,herb,mint,herb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']"
 apple cider,juice,apple cider,juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 salsa,hot taco sauce,salsa,hot taco sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 mint extract,candy,mint extract,candy,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-crunchy peanut butter,baby carrot,crunchy peanut butter,baby carrot,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+crunchy peanut butter,baby carrot,crunchy peanut butter,baby carrot,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 prune puree,pumpkin puree,prune puree,pumpkin puree,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cooking sherry,sake,cooking sherry,sake,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 hot dog,polish sausage,hot dog,polish sausage,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -32562,7 +32562,7 @@ potato,white radish,potato,white radish,"['vegan', 'gluten_free', 'nut_free', 'd
 polish sausage,turkey kielbasa,polish sausage,turkey kielbasa,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 bread,bun,bread,bun,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",other,other,7,7
 breadcrumb,raw rice,breadcrumb,raw rice,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",['gluten_free'],other,other,7,7
-breaded chicken patty,popcorn,breaded chicken patty,popcorn,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free']",protein,other,8,7
+breaded chicken patty,popcorn,breaded chicken patty,popcorn,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'vegan']",protein,other,8,7
 pomegranate aril,blueberry,pomegranate aril,blueberry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 green chili,salsa verde,green chili,salsa verde,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 maraschino cherry,cherry pie filling,maraschino cherry,cherry pie filling,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -32589,7 +32589,7 @@ muenster cheese,turkey bacon,muenster cheese,turkey bacon,"['gluten_free', 'nut_
 coriander,soup,coriander,soup,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 dried oregano,garlic,oregano,garlic,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 fresh pork shoulder,roast,pork shoulder,roast,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
-breaded chicken breast,mushroom,breaded chicken breast,mushroom,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,other,8,7
+breaded chicken breast,mushroom,breaded chicken breast,mushroom,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,other,8,7
 green bell pepper,green onion,green bell pepper,green onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 matzo meal,potato flour,matzo meal,potato flour,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,flour,7,3
 diced tomato,dried cilantro,diced tomato,cilantro,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -32909,7 +32909,7 @@ lemon,whole wheat rotini,lemon,whole wheat rotini,"['vegan', 'gluten_free', 'nut
 warm water,orange juice,warm water,orange juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,liquid,6,6
 milk,low fat yogurt,milk,low fat yogurt,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 lemon pepper,spike seasoning,lemon pepper,spike seasoning,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
-breaded chicken breast,saltine cracker,breaded chicken breast,saltine cracker,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,herb_spice,8,4
+breaded chicken breast,saltine cracker,breaded chicken breast,saltine cracker,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,herb_spice,8,4
 vanilla wafer cookie,graham cracker crust,vanilla wafer cookie,graham cracker crust,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pico de gallo,fat,pico de gallo,fat,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 water,peach nectar,water,peach nectar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
@@ -33040,7 +33040,7 @@ garlic paste,garlic powder,garlic paste,garlic powder,"['vegan', 'gluten_free', 
 dry marsala,cooking sherry,dry marsala,cooking sherry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 tomato sauce,chile,tomato sauce,chile,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 low fat milk,skim milk,low fat milk,skim milk,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
-peanut butter chip,margarine,peanut butter chip,margarine,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+peanut butter chip,margarine,peanut butter chip,margarine,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 red onion,garlic,red onion,garlic,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 skim milk,apple juice,skim milk,apple juice,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,liquid,0,6
 cooked ham,smoked pork chop,cooked ham,smoked pork chop,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
@@ -33110,7 +33110,7 @@ whole boneless skinless chicken breast,chicken leg quarter,whole boneless skinle
 chicken broth,pheasant breast,chicken broth,pheasant breast,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],liquid,other,6,7
 potato,black bean,potato,black bean,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 onion soup mix,french onion soup mix,onion soup mix,french onion soup mix,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-creamy peanut butter,olive oil,creamy peanut butter,olive oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+creamy peanut butter,olive oil,creamy peanut butter,olive oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 chocolate ice cream,fudge,chocolate ice cream,fudge,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 sharp cheddar cheese,feta cheese,sharp cheddar cheese,feta cheese,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 ground cumin,herb,cumin,herb,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
@@ -33180,7 +33180,7 @@ tomato sauce,basil,tomato sauce,basil,"['vegan', 'gluten_free', 'nut_free', 'dai
 seedless raisin,sultana raisin,raisin,sultana raisin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 cashew,sesame seed,cashew,sesame seed,"['vegan', 'gluten_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['nut_free'],other,other,7,7
 white onion,stock,white onion,stock,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
-creamy peanut butter,sesame paste,creamy peanut butter,sesame paste,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,sesame paste,creamy peanut butter,sesame paste,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 soybean,cooked lentil,soybean,cooked lentil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 butter,unsweetened chocolate,butter,unsweetened chocolate,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 ham bone,cooked ham,ham bone,cooked ham,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -33313,9 +33313,9 @@ herbe de provence,lemon pepper,herbe de provence,lemon pepper,"['vegan', 'gluten
 flour tortilla,herb,flour tortilla,herb,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
 pork sausage,canadian bacon,pork sausage,canadian bacon,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 water,frozen pea,water,frozen pea,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
-creamy peanut butter,stick,creamy peanut butter,stick,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,stick,creamy peanut butter,stick,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 papaya,watermelon,papaya,watermelon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
-almond milk,vanilla,almond milk,vanilla,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",dairy,other,0,7
+almond milk,vanilla,almond milk,vanilla,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",dairy,other,0,7
 soya flour,all purpose flour,soya flour,flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 soya flour,baking mix,soya flour,baking mix,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
 miracle whip,fat free mayonnaise,miracle whip,fat free mayonnaise,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -33355,7 +33355,7 @@ orange sweet potato,pineapple juice,orange sweet potato,pineapple juice,"['vegan
 chive,tarragon,chive,tarragon,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 sweet red pepper,onion,sweet red pepper,onion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 garlic clove,scallion,garlic clove,scallion,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-buckwheat honey,quinoa,buckwheat honey,quinoa,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",sugar,other,9,7
+buckwheat honey,quinoa,buckwheat honey,quinoa,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",sugar,other,9,7
 fresh sage leaf,sweet paprika,sage leaf,sweet paprika,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 butter,toasted sesame oil,butter,toasted sesame oil,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,fat_oil,2,2
 mushroom,bamboo shoot,mushroom,bamboo shoot,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
@@ -33373,7 +33373,7 @@ fresh parsley,spring onion,parsley,spring onion,"['vegan', 'gluten_free', 'nut_f
 dried apple,pineapple juice,apple,pineapple juice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 lemon juice,prepared mustard,lemon juice,prepared mustard,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 mango,raisin,mango,raisin,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-buttered bread crumb,fat,buttered bread crumb,fat,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto', 'dairy_free']",fat_oil,other,2,7
+buttered bread crumb,fat,buttered bread crumb,fat,['nut_free'],"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto', 'dairy_free']",fat_oil,other,2,7
 taco seasoning mix,taco sauce,taco seasoning mix,taco sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 sour cream,apple,sour cream,apple,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 light cream,rum,cream,rum,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
@@ -33547,7 +33547,7 @@ cherry preserve,lingonberry preserve,cherry preserve,lingonberry preserve,"['veg
 herb salad dressing,olive,herb salad dressing,olive,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 lime juice,sprite,lime juice,sprite,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 potato,meatloaf,potato,meatloaf,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
-breaded chicken breast,ritz cracker crumb,breaded chicken breast,ritz cracker crumb,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'keto']",protein,other,8,7
+breaded chicken breast,ritz cracker crumb,breaded chicken breast,ritz cracker crumb,"['nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'vegan', 'keto']",protein,other,8,7
 pepper,marinade,pepper,marinade,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 condensed cream of celery soup,sour cream,condensed cream of celery soup,sour cream,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
 acorn squash,roast,acorn squash,roast,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
@@ -34137,7 +34137,7 @@ lime,chicken,lime,chicken,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'k
 pumpkin,broth,pumpkin,broth,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,liquid,7,6
 whole wheat pastry flour,unbleached white flour,whole wheat pastry flour,unbleached white flour,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'nut_free', 'dairy_free']",[],flour,flour,3,3
 canned crabmeat,red salmon,canned crabmeat,red salmon,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],other,other,7,7
-creamy peanut butter,coconut oil,creamy peanut butter,coconut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+creamy peanut butter,coconut oil,creamy peanut butter,coconut oil,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 margarine,cream cheese,margarine,cream cheese,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],fat_oil,dairy,2,0
 margarine,crisco shortening,margarine,crisco shortening,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,fat_oil,2,2
 diced tomato with juice,crushed tomato,diced tomato with juice,crushed tomato,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
@@ -34351,7 +34351,7 @@ whole chicken,tofu,whole chicken,tofu,"['gluten_free', 'nut_free', 'dairy_free',
 thyme,worcestershire sauce,thyme,worcestershire sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],herb_spice,other,4,7
 beef stew meat,chuck roast,beef stew meat,chuck roast,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
 cherry pie filling,strawberry sauce,cherry pie filling,strawberry sauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-chocolate peanut butter,chocolate bar,chocolate peanut butter,chocolate bar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+chocolate peanut butter,chocolate bar,chocolate peanut butter,chocolate bar,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 pumpkin seed,roasted peanut,pumpkin seed,roasted peanut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 flour,canned tomato,flour,canned tomato,"['vegan', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",flour,other,3,7
 oaxaca cheese,macaroni,oaxaca cheese,macaroni,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
@@ -35026,8 +35026,8 @@ egg substitute,chocolate pudding mix,egg substitute,chocolate pudding mix,"['glu
 low fat margarine,oil,low fat margarine,oil,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,fat_oil,2,2
 potato,wrap,potato,wrap,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],other,other,7,7
 fudge cake mix,cookie mix,fudge cake mix,cookie mix,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-rice milk,egg,rice milk,egg,"['gluten_free', 'nut_free']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['dairy_free', 'keto']",dairy,egg,0,1
-peanut butter cookie dough,chocolate chip,peanut butter cookie dough,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+rice milk,egg,rice milk,egg,"['gluten_free', 'nut_free']","['gluten_free', 'nut_free', 'dairy_free', 'keto']","['keto', 'dairy_free']",dairy,egg,0,1
+peanut butter cookie dough,chocolate chip,peanut butter cookie dough,chocolate chip,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 butter,dried fruit,butter,fruit,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,other,2,7
 celery,sweet pepper,celery,sweet pepper,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,herb_spice,7,4
 marshmallow cream,ice cream,marshmallow cream,ice cream,"['gluten_free', 'nut_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],dairy,dairy,0,0
@@ -35332,7 +35332,7 @@ pasta sauce,noodle,pasta sauce,noodle,"['vegan', 'nut_free', 'dairy_free']","['v
 pineapple juice,jar,pineapple juice,jar,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],liquid,other,6,7
 sugar,pineapple tidbit,sugar,pineapple tidbit,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['keto'],sugar,other,9,7
 chex cereal,rice,chex cereal,rice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
-smooth peanut butter,nutella,smooth peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+smooth peanut butter,nutella,smooth peanut butter,nutella,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 semi sweet chocolate chip,cool whip,semi sweet chocolate chip,cool whip,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 refried bean,ground beef,refried bean,beef,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,protein,7,8
 sushi rice,white rice,sushi rice,white rice,"['vegan', 'gluten_free', 'nut_free', 'dairy_free']","['vegan', 'gluten_free', 'nut_free', 'dairy_free']",[],other,other,7,7
@@ -35376,7 +35376,7 @@ frozen pea,frozen carrot,frozen pea,frozen carrot,"['vegan', 'gluten_free', 'nut
 crisco cooking oil,applesauce,crisco cooking oil,applesauce,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],fat_oil,other,2,7
 dried cranberry,sweet cherry,cranberry,sweet cherry,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
 pear,apricot,pear,apricot,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",[],other,other,7,7
-creamy peanut butter,shortening,creamy peanut butter,shortening,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,fat_oil,2,2
+creamy peanut butter,shortening,creamy peanut butter,shortening,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,fat_oil,2,2
 egg,crunchy peanut butter,egg,crunchy peanut butter,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'keto']",[],egg,fat_oil,1,2
 butter flavor crisco,olive oil,butter flavor crisco,olive oil,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",fat_oil,fat_oil,2,2
 creamy peanut butter,chunky peanut butter,creamy peanut butter,chunky peanut butter,"['gluten_free', 'keto']","['gluten_free', 'keto']",[],fat_oil,fat_oil,2,2
@@ -35419,7 +35419,7 @@ french vanilla cool whip,chocolate pudding,french vanilla cool whip,chocolate pu
 pumpkin seed,pistachio nut,pumpkin seed,pistachio nut,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'dairy_free', 'keto']",[],other,other,7,7
 low fat milk,oat,low fat milk,oat,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7
 boneless skinless chicken breast,gravy,boneless skinless chicken breast,gravy,"['gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']",['vegan'],protein,other,8,7
-creamy peanut butter,graham cracker crumb,creamy peanut butter,graham cracker crumb,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free', 'nut_free']",fat_oil,other,2,7
+creamy peanut butter,graham cracker crumb,creamy peanut butter,graham cracker crumb,"['gluten_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",fat_oil,other,2,7
 peach in juice,whipped cream,peach in juice,whipped cream,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['gluten_free', 'nut_free', 'keto']",[],liquid,dairy,6,0
 black bean,flour,black bean,flour,"['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'nut_free', 'dairy_free']",[],other,flour,7,3
 cream cheese,taco seasoning,cream cheese,taco seasoning,"['gluten_free', 'nut_free', 'keto']","['vegan', 'gluten_free', 'nut_free', 'dairy_free', 'keto']","['vegan', 'dairy_free']",dairy,other,0,7

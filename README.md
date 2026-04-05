@@ -6,3 +6,5 @@ Problem: Many people who have several dietary restictions, allergies, or differe
 Approach: We will be using Python-based deep learning models such as TensorFlow and PyTorch to train datasets and recieve alternatives while still maintaining the quality of the recipe.
 
 Goal: The models serve as a purpose to provide accurate alternatives for users to make cooking more accessible and convenient.
+
+*To test locally, before running the file trainPyTorch.py edit the path names for training (train.csv), testing (test.csv), and validation (val.csv).

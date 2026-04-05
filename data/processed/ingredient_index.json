@@ -25831,8 +25831,8 @@
       "substitute": "sesame paste",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25840,8 +25840,8 @@
       "substitute": "hummu",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25849,16 +25849,16 @@
       "substitute": "grape",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
     {
       "substitute": "meat",
       "enables_diets": [
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25873,8 +25873,8 @@
       "substitute": "canola oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -25897,8 +25897,8 @@
       "substitute": "jar",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25920,8 +25920,8 @@
       "substitute": "nutella",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25929,8 +25929,8 @@
       "substitute": "fat",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25947,8 +25947,8 @@
       "substitute": "oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -25961,8 +25961,8 @@
       "substitute": "chocolate",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25970,8 +25970,8 @@
       "substitute": "fruit",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -25988,8 +25988,8 @@
       "substitute": "olive oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -25997,8 +25997,8 @@
       "substitute": "cookie",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -26006,16 +26006,16 @@
       "substitute": "white chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
     {
       "substitute": "chicken breast tender",
       "enables_diets": [
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "protein"
     },
@@ -26023,8 +26023,8 @@
       "substitute": "graham cracker",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -26036,8 +26036,8 @@
     {
       "substitute": "egg",
       "enables_diets": [
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "egg"
     },
@@ -26045,8 +26045,8 @@
       "substitute": "coconut oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -26054,8 +26054,8 @@
       "substitute": "black bean paste",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -26063,8 +26063,8 @@
       "substitute": "shortening",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -26072,8 +26072,8 @@
       "substitute": "mayonnaise",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -26117,8 +26117,8 @@
       "substitute": "strawberry jam",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -26126,8 +26126,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -26144,8 +26144,8 @@
       "substitute": "caramel",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -30380,8 +30380,8 @@
       "substitute": "salt",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "herb_spice"
     },
@@ -30407,8 +30407,8 @@
       "substitute": "raspberry",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -30822,8 +30822,8 @@
       "substitute": "vanilla extract",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -30831,16 +30831,16 @@
       "substitute": "water while blending",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "liquid"
     },
     {
       "substitute": "honey or maple syrup",
       "enables_diets": [
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "sugar"
     },
@@ -30870,8 +30870,8 @@
       "substitute": "batter",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -30908,8 +30908,8 @@
       "substitute": "vanilla",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -43500,8 +43500,8 @@
     {
       "substitute": "sweet gherkin",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto",
         "dairy_free"
       ],
@@ -43510,8 +43510,8 @@
     {
       "substitute": "dill pickle",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto",
         "dairy_free"
       ],
@@ -49285,8 +49285,8 @@
       "substitute": "vegetable oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     }
@@ -59217,8 +59217,8 @@
       "substitute": "grated coconut",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -59226,8 +59226,8 @@
       "substitute": "coconut oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     }
@@ -62164,8 +62164,8 @@
       "substitute": "farina",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -62181,8 +62181,8 @@
     {
       "substitute": "oatmeal",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "dairy_free"
       ],
       "substitute_category": "other"
@@ -67243,8 +67243,8 @@
     {
       "substitute": "spaetzle",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     }
@@ -77997,8 +77997,8 @@
       "substitute": "salt",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "herb_spice"
     },
@@ -78014,8 +78014,8 @@
       "substitute": "vegetable oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -93314,8 +93314,8 @@
       "substitute": "salt",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "herb_spice"
     },
@@ -93323,8 +93323,8 @@
       "substitute": "vegetable oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -93341,8 +93341,8 @@
       "substitute": "nut",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -93350,8 +93350,8 @@
       "substitute": "hummu",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -98933,8 +98933,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -98949,8 +98949,8 @@
       "substitute": "strawberry jam",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -98958,8 +98958,8 @@
       "substitute": "white chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -98967,8 +98967,8 @@
       "substitute": "jar",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -98997,8 +98997,8 @@
       "substitute": "mint chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -99006,8 +99006,8 @@
       "substitute": "margarine",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -109509,8 +109509,8 @@
       "substitute": "horchata",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -109560,8 +109560,8 @@
       "substitute": "vanilla",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -109583,8 +109583,8 @@
       "substitute": "apple juice",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "liquid"
     },
@@ -109592,8 +109592,8 @@
       "substitute": "water",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "liquid"
     },
@@ -109601,8 +109601,8 @@
       "substitute": "muesli",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -109616,8 +109616,8 @@
     {
       "substitute": "egg",
       "enables_diets": [
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "egg"
     },
@@ -154349,8 +154349,8 @@
       "substitute": "chocolate",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154363,8 +154363,8 @@
       "substitute": "nutella",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154380,8 +154380,8 @@
       "substitute": "grain",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154394,8 +154394,8 @@
       "substitute": "chocolate frosting",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154403,8 +154403,8 @@
       "substitute": "fat",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154417,8 +154417,8 @@
       "substitute": "caramel",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154426,8 +154426,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154435,8 +154435,8 @@
       "substitute": "chow mein noodle",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154449,8 +154449,8 @@
       "substitute": "brownie",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154465,8 +154465,8 @@
       "substitute": "olive oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -154474,8 +154474,8 @@
       "substitute": "sesame paste",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154483,8 +154483,8 @@
       "substitute": "stick",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -154499,8 +154499,8 @@
       "substitute": "coconut oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -154516,8 +154516,8 @@
       "substitute": "shortening",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     },
@@ -154530,8 +154530,8 @@
       "substitute": "graham cracker crumb",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -159879,8 +159879,8 @@
       "substitute": "vanilla",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -159896,8 +159896,8 @@
       "substitute": "banana",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -161308,8 +161308,8 @@
       "substitute": "pudding",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -161326,8 +161326,8 @@
       "substitute": "cereal",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -161335,8 +161335,8 @@
       "substitute": "nutella",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -161349,8 +161349,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -161358,8 +161358,8 @@
       "substitute": "baby carrot",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -161955,8 +161955,8 @@
       "substitute": "roll",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165887,8 +165887,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165901,8 +165901,8 @@
       "substitute": "vanilla",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165922,8 +165922,8 @@
       "substitute": "ganache",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165931,8 +165931,8 @@
       "substitute": "carob chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165940,8 +165940,8 @@
       "substitute": "dove",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165949,8 +165949,8 @@
       "substitute": "cookie",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165958,8 +165958,8 @@
       "substitute": "white chocolate",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -165967,8 +165967,8 @@
       "substitute": "chocolate bar",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -186032,8 +186032,8 @@
     {
       "substitute": "tortilla",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -186063,8 +186063,8 @@
     {
       "substitute": "oat",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -186072,8 +186072,8 @@
     {
       "substitute": "quinoa",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -188182,8 +188182,8 @@
       "substitute": "semisweet chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -188196,8 +188196,8 @@
       "substitute": "toothpick",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -188205,8 +188205,8 @@
       "substitute": "banana",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -189120,8 +189120,8 @@
     {
       "substitute": "egg",
       "enables_diets": [
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "egg"
     }
@@ -189959,8 +189959,8 @@
     {
       "substitute": "long grain rice",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     }
@@ -190011,8 +190011,8 @@
     {
       "substitute": "ritz cracker crumb",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto",
         "dairy_free"
       ],
@@ -190021,8 +190021,8 @@
     {
       "substitute": "saltine crumb",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto",
         "dairy_free"
       ],
@@ -190031,8 +190031,8 @@
     {
       "substitute": "fat",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto",
         "dairy_free"
       ],
@@ -191250,8 +191250,8 @@
       "substitute": "pretzel",
       "enables_diets": [
         "vegan",
-        "keto",
-        "nut_free"
+        "nut_free",
+        "keto"
       ],
       "substitute_category": "other"
     },
@@ -193875,8 +193875,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -193884,8 +193884,8 @@
       "substitute": "flax seed",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -197023,8 +197023,8 @@
       "substitute": "yoghurt",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -197032,8 +197032,8 @@
       "substitute": "chai tea",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -197041,8 +197041,8 @@
       "substitute": "mushroom",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -197050,8 +197050,8 @@
       "substitute": "grainy mustard",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -197613,8 +197613,8 @@
       "substitute": "dipping sauce",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -197622,8 +197622,8 @@
       "substitute": "nutella",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -198451,8 +198451,8 @@
       "substitute": "oil",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "fat_oil"
     }
@@ -202146,8 +202146,8 @@
       "substitute": "ice cube",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -202537,40 +202537,40 @@
     {
       "substitute": "white wine",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "liquid"
     },
     {
       "substitute": "noodle",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     },
     {
       "substitute": "tomato",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     },
     {
       "substitute": "cumin",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "herb_spice"
     },
     {
       "substitute": "turkey",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     },
@@ -203429,8 +203429,8 @@
       "substitute": "chocolate",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
@@ -204278,8 +204278,8 @@
       "substitute": "cold water",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "liquid"
     },
@@ -207569,8 +207569,8 @@
     {
       "substitute": "kahlua",
       "enables_diets": [
-        "keto",
-        "nut_free"
+        "nut_free",
+        "keto"
       ],
       "substitute_category": "other"
     },
@@ -207704,8 +207704,8 @@
     {
       "substitute": "garlic salt",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "herb_spice"
@@ -207713,8 +207713,8 @@
     {
       "substitute": "cracker crumb",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -207722,8 +207722,8 @@
     {
       "substitute": "crouton",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -207738,8 +207738,8 @@
     {
       "substitute": "french fried onion",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -207747,8 +207747,8 @@
     {
       "substitute": "mushroom",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -207756,8 +207756,8 @@
     {
       "substitute": "saltine cracker",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "herb_spice"
@@ -207765,8 +207765,8 @@
     {
       "substitute": "ritz cracker crumb",
       "enables_diets": [
-        "vegan",
         "gluten_free",
+        "vegan",
         "keto"
       ],
       "substitute_category": "other"
@@ -208877,8 +208877,8 @@
       "substitute": "garlic powder",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "keto"
+        "keto",
+        "dairy_free"
       ],
       "substitute_category": "other"
     },
@@ -209583,8 +209583,8 @@
     {
       "substitute": "mushroom",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     }
@@ -210257,8 +210257,8 @@
     {
       "substitute": "popcorn",
       "enables_diets": [
-        "vegan",
-        "gluten_free"
+        "gluten_free",
+        "vegan"
       ],
       "substitute_category": "other"
     }
@@ -214372,8 +214372,8 @@
       "substitute": "chocolate chip",
       "enables_diets": [
         "vegan",
-        "dairy_free",
-        "nut_free"
+        "nut_free",
+        "dairy_free"
       ],
       "substitute_category": "other"
     }
