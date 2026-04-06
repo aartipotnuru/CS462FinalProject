@@ -10,8 +10,11 @@ from torch.utils.data import TensorDataset, DataLoader
 #one for training, one for the testing dataset, and one for validation
 
 #to test locally update these variables to the processed data path names
+#replace this one to the path of train.csv
 trainingDataPath = ""
+#replace this one to the path of test.csv
 testingDataPath = ""
+#replace this one to the path of val.csv
 dataFromValidationPath = ""
 
 trainingData = pd.read_csv(trainingDataPath)

@@ -7,4 +7,4 @@ Approach: We will be using Python-based deep learning models such as TensorFlow 
 
 Goal: The models serve as a purpose to provide accurate alternatives for users to make cooking more accessible and convenient.
 
-*To test locally, before running the file trainPyTorch.py edit the path names for training (train.csv), testing (test.csv), and validation (val.csv).
+*To test locally, initially run data_processing.py to process the data accordingly. Then, before running the file trainPyTorch.py edit the path names for training (train.csv), testing (test.csv), and validation (val.csv).

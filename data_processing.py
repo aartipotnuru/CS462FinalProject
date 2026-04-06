@@ -115,12 +115,12 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
         "fat_oil":    ["butter", "oil", "lard", "ghee", "shortening", "margarine"],
         "flour":      ["flour", "starch", "cornstarch", "arrowroot", "semolina"],
         "dairy":      ["milk", "cream", "yogurt", "cheese", "buttermilk"],
-        "egg":        ["egg"],
+        #"egg":        ["egg"],
         "sugar":      ["sugar", "honey", "syrup", "molasses", "sweetener"],
         "leavening":  ["baking soda", "baking powder", "yeast"],
         "liquid":     ["water", "broth", "stock", "juice", "wine", "beer"],
         "protein":    ["chicken", "beef", "pork", "fish", "tofu", "tempeh", "seitan"],
-        "herb_spice": ["pepper", "salt", "basil", "oregano", "thyme", "cumin"],
+        #"herb_spice": ["pepper", "salt", "basil", "oregano", "thyme", "cumin"],
     }
 
     def categorize(ingredient: str) -> str:
