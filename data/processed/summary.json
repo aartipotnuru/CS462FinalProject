@@ -16,9 +16,9 @@
   "ingredient_categories": [
     "flour",
     "other",
-    "fat_oil",
     "dairy",
     "sugar",
+    "egg",
     "liquid",
     "leavening",
     "protein"
