@@ -22,29 +22,77 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 lemmatizer = WordNetLemmatizer()
 
-# ─────────────────────────────────────────────────────────────────────────────
-# DIETARY TAGS
-# ─────────────────────────────────────────────────────────────────────────────
+# -------------------------------
+# BASE GROUPS 
+# -------------------------------
+
+MEAT = [
+    "chicken", "hen", "turkey", "duck",
+    "beef", "pork", "lamb", "veal", "buffalo", "steak", "hamburger",
+    "bacon", "ham", "sausage", "pepperoni", "frank",
+    "fish", "shrimp", "salmon", "tuna", "anchovy", "seafood",
+    "meat", "meatball", "gelatin", "lard", "rib"
+]
+
+DAIRY = [
+    "milk", "butter", "cream", "cheese", "yogurt", "plain yoghurt",
+    "whey", "casein", "ghee", "lactose"
+]
+
+ANIMAL_PRODUCTS = [
+    "egg", "honey"
+]
+
+GLUTEN = [
+    "flour", "wheat", "barley", "rye", "oats", "bread",
+    "pasta", "semolina", "spelt", "malt"
+]
+
+NUTS = [
+    "almond", "peanut", "cashew", "walnut", "pecan",
+    "pistachio", "hazelnut", "macadamia", "nut butter", "tahini"
+]
+
+HIGH_CARB = [
+    "sugar", "flour", "rice", "bread", "potato", "corn",
+    "oats", "pasta", "honey", "syrup", "molasses"
+]
+
+# -------------------------------
+# DIETARY RULES 
+# -------------------------------
+
 DIETARY_RULES = {
-    "vegan":       ["egg", "milk", "butter", "cream", "honey", "cheese",
-                    "yogurt", "meat", "chicken", "beef", "pork", "fish",
-                    "shrimp", "gelatin", "lard", "ghee", "whey"],
-    "gluten_free": ["flour", "wheat", "barley", "rye", "oats", "bread",
-                    "pasta", "semolina", "spelt", "malt"],
-    "nut_free":    ["almond", "peanut", "cashew", "walnut", "pecan",
-                    "pistachio", "hazelnut", "macadamia", "nut butter", "tahini"],
-    "dairy_free":  ["milk", "butter", "cream", "cheese", "yogurt",
-                    "whey", "casein", "ghee", "lactose"],
-    "keto":        ["sugar", "flour", "rice", "bread", "potato", "corn",
-                    "oats", "pasta", "honey", "syrup", "molasses"],
+    "vegan": MEAT + DAIRY + ANIMAL_PRODUCTS,
+    "vegetarian": MEAT,
+    "dairy_free": DAIRY,
+    "gluten_free": GLUTEN,
+    "nut_free": NUTS,
+    "keto": HIGH_CARB,
 }
 
 def get_dietary_tags(ingredient: str) -> list[str]:
-    """Return diets this ingredient is SAFE for (i.e. doesn't contain excludes)."""
-    return [
-        diet for diet, exclusions in DIETARY_RULES.items()
-        if not any(ex in ingredient for ex in exclusions)
-    ]
+    ingredient = ingredient.lower().strip()
+    words = ingredient.split()
+
+    tags = []
+
+    # use all your rules, not just vegan/vegetarian
+    for diet, forbidden_words in DIETARY_RULES.items():
+        if not any(
+            fw in ingredient or fw in words
+            for fw in forbidden_words
+        ):
+            tags.append(diet)
+
+    # vegetarian is separate since it is not in DIETARY_RULES
+    if not any(
+        fw in ingredient or fw in words
+        for fw in forbidden_words
+    ):
+        tags.append("vegetarian")
+
+    return list(set(tags))
 
 # ─────────────────────────────────────────────────────────────────────────────
 # NORMALIZATION
@@ -99,15 +147,18 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
     df = df.drop_duplicates(subset=["ingredient_clean", "substitution_clean"])
     print(f"  Dropped {before - len(df):,} invalid/duplicate rows → {len(df):,} remain")
 
+    #bad keywords
+    df = df[
+        ~df["substitution_clean"].str.contains(
+            r"\b(meal|food|dish|ingredient|mixture|product|crushed|whipped|bottled|prepared|instant|cooked|dry|soft|fresh|whole|chopped|ground|minced|grated|sliced|juice|water|sauce|syrup|seasoning|salt|powder|extract|crumb|broth|stock|mix|base|fryer|broiler|roaster|stewing|cut|piece|part)\b",
+            na=False
+        )
+    ]
     print("\n[2/4] Tagging dietary categories...")
     df["ingredient_diets"]   = df["ingredient_clean"].apply(get_dietary_tags)
     df["substitution_diets"] = df["substitution_clean"].apply(get_dietary_tags)
 
-    # Which diets does swapping to this substitute ENABLE?
-    df["enables_diets"] = df.apply(
-        lambda r: list(set(r["substitution_diets"]) - set(r["ingredient_diets"])),
-        axis=1
-    )
+    df["enables_diets"] = df["substitution_diets"]
 
     print("\n[3/4] Building ingredient category labels...")
     # Simple rule-based category — useful feature for the model
@@ -155,6 +206,7 @@ def build_ingredient_index(df: pd.DataFrame):
             "substitute":          row["substitution_clean"],
             "enables_diets":       row["enables_diets"],
             "substitute_category": row["substitution_category"],
+            "ingredient_diets":    row["ingredient_diets"],
         })
 
     with open(OUTPUT_DIR / "ingredient_index.json", "w") as f:

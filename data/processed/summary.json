@@ -1,16 +1,17 @@
 {
-  "total_pairs": 36834,
-  "train": 29467,
-  "val": 3683,
-  "test": 3684,
-  "unique_ingredients": 5951,
-  "unique_substitutions": 5443,
-  "avg_subs_per_ingredient": 6.2,
+  "total_pairs": 30966,
+  "train": 24772,
+  "val": 3097,
+  "test": 3097,
+  "unique_ingredients": 5595,
+  "unique_substitutions": 4521,
+  "avg_subs_per_ingredient": 5.5,
   "dietary_tags": [
     "vegan",
+    "vegetarian",
+    "dairy_free",
     "gluten_free",
     "nut_free",
-    "dairy_free",
     "keto"
   ],
   "ingredient_categories": [

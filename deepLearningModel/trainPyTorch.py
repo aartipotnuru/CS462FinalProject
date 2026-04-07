@@ -113,4 +113,4 @@ result = accuracy_score(secondTesting, values)
 print(f"Testing accuracy: {result: .4f}")
 
 
-
+torch.save(model.state_dict(), "model.pt")
