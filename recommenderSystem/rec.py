@@ -9,18 +9,36 @@ from utils import (
     already_satisfies
 )
 
+# ─────────────────────────────────────────────────────────────
+# CONSTANTS
+# ─────────────────────────────────────────────────────────────
 PROTEIN_WORDS = [
     "tofu", "bean", "lentil", "chickpea", "seitan",
     "turkey", "beef", "pork", "chicken", "fish",
     "shrimp", "meat"
 ]
 
-INVALID_TYPES = [
-    "baking soda", "baking powder", "yeast",
-    "water", "salt", "seasoning", "spice",
-    "extract", "powder"
+GOOD_PATTERNS = {
+    "milk": ["milk", "cream", "oat", "soy", "almond"],
+    "chicken": ["tofu", "bean", "lentil", "chickpea"]
+}
+
+BAD_CONTEXT_WORDS = [
+    "coffee", "water", "salt", "seasoning", "spice",
+    "extract", "powder", "sauce", "baking soda"
 ]
 
+# ─────────────────────────────────────────────────────────────
+# SIMPLE SIMILARITY 
+# ─────────────────────────────────────────────────────────────
+def similarity(a, b):
+    a_words = set(a.split())
+    b_words = set(b.split())
+    return len(a_words & b_words)
+
+# ─────────────────────────────────────────────────────────────
+# MODEL
+# ─────────────────────────────────────────────────────────────
 def build_model(num_classes):
     return nn.Sequential(
         nn.Linear(1, 64),
@@ -44,6 +62,7 @@ def load_model(path, num_classes):
     model.eval()
     return model
 
+
 def predict_category(model, encoder, ingredient):
     try:
         cat = encoder.transform([ingredient])[0]
@@ -58,6 +77,9 @@ def predict_category(model, encoder, ingredient):
 
     return encoder.inverse_transform([pred])[0]
 
+# ─────────────────────────────────────────────────────────────
+# RECOMMENDER
+# ─────────────────────────────────────────────────────────────
 def recommend(ingredient, restriction, model, encoder, index):
     ingredient = normalize_ingredient(ingredient)
 
@@ -69,19 +91,12 @@ def recommend(ingredient, restriction, model, encoder, index):
     if not candidates:
         return []
 
-    candidates = [
-        c for c in candidates
-        if not any(bad in c["substitute"] for bad in INVALID_TYPES)
-    ]
-
-    if not candidates:
-        return []
-
     pred_category = predict_category(model, encoder, ingredient)
 
     def is_protein(name):
         return any(word in name for word in PROTEIN_WORDS)
 
+    # Optional protein filtering 
     if any(word in ingredient for word in PROTEIN_WORDS):
         protein_filtered = [
             c for c in candidates
@@ -90,22 +105,40 @@ def recommend(ingredient, restriction, model, encoder, index):
         if protein_filtered:
             candidates = protein_filtered
 
-    if pred_category:
-        model_filtered = [
-            c for c in candidates
-            if c["substitute_category"] == pred_category
-        ]
-        if model_filtered:
-            candidates = model_filtered
-
+    # ─────────────────────────────────────────────────────────
+    # SCORING FUNCTION 
+    # ─────────────────────────────────────────────────────────
     def score(c):
         s = 0
+        sub = c["substitute"]
 
-        if pred_category and c["substitute_category"] == pred_category:
-            s += 3
+        # 1. Category match (Fix #3: soft model usage)
+        if pred_category:
+            if c["substitute_category"] == pred_category:
+                s += 5
+            else:
+                s -= 1
 
-        if any(word in c["substitute"] for word in PROTEIN_WORDS):
-            s += 1
+        # 2. Protein consistency
+        if any(word in ingredient for word in PROTEIN_WORDS):
+            if any(word in sub for word in PROTEIN_WORDS):
+                s += 3
+
+        # 3. Similarity boost (Fix #2)
+        s += 2 * similarity(ingredient, sub)
+
+        # 4. Learned pattern boost (Fix #4)
+        for key, words in GOOD_PATTERNS.items():
+            if key in ingredient:
+                if any(w in sub for w in words):
+                    s += 3
+
+        # 5. Light penalties (NOT hard filtering)
+        if any(word in sub for word in BAD_CONTEXT_WORDS):
+            s -= 3
+
+        if len(sub.split()) > 2:
+            s -= 1
 
         return s
 
@@ -113,6 +146,9 @@ def recommend(ingredient, restriction, model, encoder, index):
 
     return [c["substitute"] for c in ranked[:3]]
 
+# ─────────────────────────────────────────────────────────────
+# REWRITE PIPELINE
+# ─────────────────────────────────────────────────────────────
 def rewrite_recipe(ingredients, restriction, model, encoder, index):
     new_recipe = []
     replacements = {}
@@ -136,7 +172,9 @@ def rewrite_recipe(ingredients, restriction, model, encoder, index):
 
     return new_recipe, replacements
 
-
+# ─────────────────────────────────────────────────────────────
+# MAIN
+# ─────────────────────────────────────────────────────────────
 def main():
     print("=== MODEL-BASED RECIPE REWRITER ===")
 

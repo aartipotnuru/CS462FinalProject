@@ -77,19 +77,12 @@ def get_dietary_tags(ingredient: str) -> list[str]:
 
     tags = []
 
-    # use all your rules, not just vegan/vegetarian
     for diet, forbidden_words in DIETARY_RULES.items():
-        if not any(
-            fw in ingredient or fw in words
-            for fw in forbidden_words
-        ):
+        if not any(fw in ingredient or fw in words for fw in forbidden_words):
             tags.append(diet)
 
-    # vegetarian is separate since it is not in DIETARY_RULES
-    if not any(
-        fw in ingredient or fw in words
-        for fw in forbidden_words
-    ):
+    # vegetarian = no meat only
+    if not any(fw in ingredient or fw in words for fw in MEAT):
         tags.append("vegetarian")
 
     return list(set(tags))

@@ -1,6 +1,11 @@
 import json
 import pickle
 
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from data_processing import normalize
+
 def load_ingredient_index(path="data/processed/ingredient_index.json"):
     with open(path) as f:
         return json.load(f)
@@ -11,7 +16,7 @@ def load_category_encoder(path="data/processed/category_encoder.pkl"):
         return pickle.load(f)
 
 def normalize_ingredient(x):
-    return x.lower().strip()
+    return normalize(x)
 
 def filter_by_diet(candidates, restriction):
     restriction = restriction.lower().strip()
