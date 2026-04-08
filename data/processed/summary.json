@@ -1,10 +1,10 @@
 {
-  "total_pairs": 30966,
-  "train": 24772,
-  "val": 3097,
-  "test": 3097,
-  "unique_ingredients": 5595,
-  "unique_substitutions": 4521,
+  "total_pairs": 30948,
+  "train": 24758,
+  "val": 3095,
+  "test": 3095,
+  "unique_ingredients": 5590,
+  "unique_substitutions": 4520,
   "avg_subs_per_ingredient": 5.5,
   "dietary_tags": [
     "vegan",

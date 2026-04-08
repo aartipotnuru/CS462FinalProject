@@ -19,15 +19,20 @@ PROTEIN_WORDS = [
 ]
 
 GOOD_PATTERNS = {
-    "milk": ["milk", "cream", "oat", "soy", "almond"],
-    "chicken": ["tofu", "bean", "lentil", "chickpea"]
+    "egg": ["flax", "flax seed", "chia", "applesauce", "silken tofu"],
+    "milk": ["milk", "cream", "oat", "soy", "almond", "rice", "coconut"],
+    "cream": ["cream", "coconut cream", "cashew cream", "oat cream", "soy cream", "silken tofu"],
+    "chicken": ["tofu", "bean", "lentil", "chickpea"],
+    "peanut": ["seed", "sunflower", "pumpkin", "soy", "butter"],
+    "almond milk": ["milk", "oat", "rice", "soy", "coconut"],
+    "cheese": ["nutritional yeast", "miso", "tofu", "vegan cheese"]
 }
 
 BAD_CONTEXT_WORDS = [
     "coffee", "water", "salt", "seasoning", "spice",
-    "extract", "powder", "sauce", "baking soda"
+    "extract", "powder", "sauce", "baking soda",
+    "cilantro", "chocolate chip", "ranch dressing"
 ]
-
 # ─────────────────────────────────────────────────────────────
 # SIMPLE SIMILARITY 
 # ─────────────────────────────────────────────────────────────
@@ -94,9 +99,39 @@ def recommend(ingredient, restriction, model, encoder, index):
     pred_category = predict_category(model, encoder, ingredient)
 
     def is_protein(name):
+        name = name.lower()
         return any(word in name for word in PROTEIN_WORDS)
 
-    # Optional protein filtering 
+    def is_milk_like(name):
+        name = name.lower()
+        milk_words = ["milk", "oat", "soy", "almond", "rice", "coconut", "cream"]
+        return any(word in name for word in milk_words)
+
+    def is_nut_or_seed_like(name):
+        name = name.lower()
+        words = [
+            "seed", "sunflower", "pumpkin", "sesame",
+            "soy", "butter", "spread", "pea"
+        ]
+        return any(word in name for word in words)
+
+    def is_cream_like(name):
+        name = name.lower()
+        cream_words = [
+            "cream", "coconut cream", "cashew cream",
+            "soy cream", "oat cream", "silken tofu"
+        ]
+        return any(word in name for word in cream_words)
+
+    def is_egg_like(name):
+        name = name.lower()
+        egg_words = [
+            "flax", "chia", "applesauce", "silken tofu",
+            "egg replacer", "aquafaba"
+        ]
+        return any(word in name for word in egg_words)
+
+    # protein ingredients should stay protein-like
     if any(word in ingredient for word in PROTEIN_WORDS):
         protein_filtered = [
             c for c in candidates
@@ -105,45 +140,99 @@ def recommend(ingredient, restriction, model, encoder, index):
         if protein_filtered:
             candidates = protein_filtered
 
-    # ─────────────────────────────────────────────────────────
-    # SCORING FUNCTION 
-    # ─────────────────────────────────────────────────────────
+    # milk ingredients should stay milk-like
+    if "milk" in ingredient:
+        milk_filtered = [
+            c for c in candidates
+            if is_milk_like(c["substitute"])
+        ]
+        if milk_filtered:
+            candidates = milk_filtered
+
+    # cream ingredients should stay cream-like
+    if "cream" in ingredient:
+        cream_filtered = [
+            c for c in candidates
+            if is_cream_like(c["substitute"])
+        ]
+        if cream_filtered:
+            candidates = cream_filtered
+
+    # egg ingredients should stay egg-replacer-like
+    if "egg" in ingredient:
+        egg_filtered = [
+            c for c in candidates
+            if is_egg_like(c["substitute"])
+        ]
+        if egg_filtered:
+            candidates = egg_filtered
+
+    # peanut/nut ingredients should prefer seed/spread-like replacements
+    if any(word in ingredient for word in ["peanut", "nut", "almond"]):
+        nut_filtered = [
+            c for c in candidates
+            if is_nut_or_seed_like(c["substitute"])
+        ]
+        if nut_filtered:
+            candidates = nut_filtered
+
     def score(c):
         s = 0
-        sub = c["substitute"]
+        sub = c["substitute"].lower()
 
-        # 1. Category match (Fix #3: soft model usage)
+        # 1. soft category match
         if pred_category:
             if c["substitute_category"] == pred_category:
                 s += 5
             else:
                 s -= 1
 
-        # 2. Protein consistency
+        # 2. protein consistency
         if any(word in ingredient for word in PROTEIN_WORDS):
             if any(word in sub for word in PROTEIN_WORDS):
                 s += 3
 
-        # 3. Similarity boost (Fix #2)
+        # 3. token overlap
         s += 2 * similarity(ingredient, sub)
 
-        # 4. Learned pattern boost (Fix #4)
+        # 4. learned ingredient patterns
         for key, words in GOOD_PATTERNS.items():
             if key in ingredient:
                 if any(w in sub for w in words):
-                    s += 3
+                    s += 4
 
-        # 5. Light penalties (NOT hard filtering)
+        # 5. structure boosts
+        if "milk" in ingredient and is_milk_like(sub):
+            s += 4
+
+        if "cream" in ingredient and is_cream_like(sub):
+            s += 5
+
+        if "egg" in ingredient and is_egg_like(sub):
+            s += 5
+
+        if any(word in ingredient for word in ["peanut", "nut", "almond"]) and is_nut_or_seed_like(sub):
+            s += 4
+
+        # 6. cream-specific penalty
+        if "cream" in ingredient:
+            if any(word in sub for word in ["yogurt", "yoghurt", "ranch", "feta"]):
+                s -= 6
+
+        # 7. generic-word penalty
+        if sub in ["fat", "liquid", "powder", "spread"]:
+            s -= 5
+
+        # 8. weird pantry/context penalties
         if any(word in sub for word in BAD_CONTEXT_WORDS):
-            s -= 3
+            s -= 4
 
-        if len(sub.split()) > 2:
+        if len(sub.split()) > 3:
             s -= 1
 
         return s
 
     ranked = sorted(candidates, key=score, reverse=True)
-
     return [c["substitute"] for c in ranked[:3]]
 
 # ─────────────────────────────────────────────────────────────

@@ -58,6 +58,10 @@ HIGH_CARB = [
     "oats", "pasta", "honey", "syrup", "molasses"
 ]
 
+BANNED_SUBSTITUTES = [
+    "baking soda", "baking powder"
+]
+
 # -------------------------------
 # DIETARY RULES 
 # -------------------------------
@@ -130,6 +134,9 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
     print("\n[1/4] Normalizing ingredients...")
     df["ingredient_clean"]   = df["ingredient"].apply(normalize)
     df["substitution_clean"] = df["substitution"].apply(normalize)
+
+    df = df[~df["substitution_clean"].isin(BANNED_SUBSTITUTES)]
+
 
     # Drop anything that normalized to empty
     before = len(df)
