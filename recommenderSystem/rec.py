@@ -86,7 +86,8 @@ def predict_category(model, encoder, ingredient):
 # RECOMMENDER
 # ─────────────────────────────────────────────────────────────
 def recommend(ingredient, restriction, model, encoder, index):
-    ingredient = normalize_ingredient(ingredient)
+    if ingredient not in index:
+        ingredient = normalize_ingredient(ingredient)
 
     if ingredient not in index:
         return []
@@ -168,7 +169,7 @@ def recommend(ingredient, restriction, model, encoder, index):
             candidates = egg_filtered
 
     # peanut/nut ingredients should prefer seed/spread-like replacements
-    if any(word in ingredient for word in ["peanut", "nut", "almond"]):
+    if any(word in ingredient for word in ["peanut", "nut", "almond", "cashew"]):
         nut_filtered = [
             c for c in candidates
             if is_nut_or_seed_like(c["substitute"])
@@ -211,7 +212,7 @@ def recommend(ingredient, restriction, model, encoder, index):
         if "egg" in ingredient and is_egg_like(sub):
             s += 5
 
-        if any(word in ingredient for word in ["peanut", "nut", "almond"]) and is_nut_or_seed_like(sub):
+        if any(word in ingredient for word in ["peanut", "nut", "almond", "cashew"]) and is_nut_or_seed_like(sub):
             s += 4
 
         # 6. cream-specific penalty
@@ -238,6 +239,13 @@ def recommend(ingredient, restriction, model, encoder, index):
 # ─────────────────────────────────────────────────────────────
 # REWRITE PIPELINE
 # ─────────────────────────────────────────────────────────────
+NUT_LOOKUP_MAP = {
+    "cashew milk": "milk",
+    "cashew cream": "cream",
+    "almond cream": "cream",
+    "almond milk": "milk",
+}
+
 def rewrite_recipe(ingredients, restriction, model, encoder, index):
     new_recipe = []
     replacements = {}
@@ -247,11 +255,14 @@ def rewrite_recipe(ingredients, restriction, model, encoder, index):
     for ing in ingredients:
         ing_clean = normalize_ingredient(ing)
 
-        if already_satisfies(ing_clean, restriction, index):
+        lookup_key = NUT_LOOKUP_MAP.get(ing_clean, ing_clean)
+        force_replace = (lookup_key != ing_clean and restriction == "nut_free")
+
+        if not force_replace and already_satisfies(ing_clean, restriction, index):
             new_recipe.append(ing_clean)
             continue
 
-        subs = recommend(ing_clean, restriction, model, encoder, index)
+        subs = recommend(lookup_key, restriction, model, encoder, index)
 
         if subs:
             new_recipe.append(subs[0])
