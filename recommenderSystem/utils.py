@@ -82,7 +82,8 @@ def filter_by_diet(candidates, restriction):
         if restriction == "nut_free":
             banned_words = [
                 "almond", "cashew", "walnut", "pecan", "hazelnut", "pistachio",
-                "peanut", "mixed nut"
+                "peanut", "mixed nut", "beechnut", "brazil nut", "pine nut",
+                "macadamia", "chestnut", "batter"
             ]
             if any(x in name for x in banned_words):
                 continue
