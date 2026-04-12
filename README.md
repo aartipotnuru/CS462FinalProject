@@ -102,12 +102,6 @@ The app accepts:
 
 And it returns suggested ingredient replacements plus the rewritten ingredient list.
 
-## Notes
-
-- `app_gradio.py` loads `model.pt` from the project root.
-- If you train your own model, save it as `model.pt` in the project root or update `recommenderSystem/app_gradio.py` accordingly.
-- The Gradio app uses the processed ingredient index and category encoder from `data/processed/`.
-
 ## Project files to know
 
 - `data_processing.py` — raw data normalization, dietary tag extraction, and split generation
