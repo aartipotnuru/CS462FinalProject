@@ -8,16 +8,9 @@ from sklearn.metrics import accuracy_score
 
 from torch.utils.data import TensorDataset, DataLoader
 
-
-#one for training, one for the testing dataset, and one for validation
-
-#to test locally update these variables to the processed data path names
-#replace this one to the path of train.csv
-trainingDataPath = "/Users/RheaandKaajal/CS462FinalProject/data/processed/train.csv"
-#replace this one to the path of test.csv
-testingDataPath = "/Users/RheaandKaajal/CS462FinalProject/data/processed/test.csv"
-#replace this one to the path of val.csv
-dataFromValidationPath = "/Users/RheaandKaajal/CS462FinalProject/data/processed/val.csv"
+trainingDataPath = "data/processed/train.csv"
+testingDataPath = "data/processed/test.csv"
+dataFromValidationPath = "data/processed/val.csv"
 
 trainingData = pd.read_csv(trainingDataPath)
 
