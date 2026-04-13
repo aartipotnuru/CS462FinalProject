@@ -1,5 +1,6 @@
 import sys
 import os
+import re
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import gradio as gr
@@ -7,16 +8,20 @@ import torch
 from utils import load_ingredient_index, load_category_encoder
 from rec import rewrite_recipe, build_model
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "model.pt")
+BASE_DIR     = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+MODEL_PATH   = os.path.join(BASE_DIR, "model.pt")
+INDEX_PATH   = os.path.join(BASE_DIR, "data", "processed", "ingredient_index.json")
+ENCODER_PATH = os.path.join(BASE_DIR, "data", "processed", "category_encoder.pkl")
 
-index   = load_ingredient_index()
-encoder = load_category_encoder()
+index   = load_ingredient_index(INDEX_PATH)
+encoder = load_category_encoder(ENCODER_PATH)
 model   = build_model(len(encoder.classes_))
 model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
 model.eval()
 
 def run(ingredients_text, restriction):
-    ingredients = [x.strip() for x in ingredients_text.split(",") if x.strip()]
+    cleaned_text = re.sub(r'\s*\([^)]*\)', '', ingredients_text)
+    ingredients = [x.strip() for x in cleaned_text.split(",") if x.strip()]
     if not ingredients:
         return "Please enter at least one ingredient.", ""
 

@@ -44,26 +44,44 @@ def similarity(a, b):
 # ─────────────────────────────────────────────────────────────
 # MODEL
 # ─────────────────────────────────────────────────────────────
+# REPLACE WITH this (matches trainPyTorch.py exactly):
+EMBEDDING_SIZE = 8
+NUM_CATEGORIES = 10
+DIET_AMT = 5
+
+class Model(nn.Module):
+    def __init__(self, count, size, dietAmt, tot):
+        super(Model, self).__init__()
+        self.embed = nn.Embedding(tot, size)
+        response = size + dietAmt
+        self.layering = nn.Sequential(
+            nn.Linear(response, 64),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(64, 128),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(128, 64),
+            nn.ReLU(),
+            nn.Linear(64, tot)
+        )
+
+    def forward(self, first, second):
+        amtOne = self.embed(first.squeeze())
+        amtTwo = torch.cat([amtOne, second], dim=1)
+        return self.layering(amtTwo)
+
 def build_model(num_classes):
-    return nn.Sequential(
-        nn.Linear(1, 64),
-        nn.ReLU(),
-        nn.Dropout(0.1),
-
-        nn.Linear(64, 128),
-        nn.ReLU(),
-        nn.Dropout(0.1),
-
-        nn.Linear(128, 64),
-        nn.ReLU(),
-
-        nn.Linear(64, num_classes)
+    return Model(
+        count=NUM_CATEGORIES,
+        size=EMBEDDING_SIZE,
+        dietAmt=DIET_AMT,
+        tot=num_classes
     )
-
 
 def load_model(path, num_classes):
     model = build_model(num_classes)
-    model.load_state_dict(torch.load(path))
+    model.load_state_dict(torch.load(path, map_location="cpu"))
     model.eval()
     return model
 
@@ -74,10 +92,11 @@ def predict_category(model, encoder, ingredient):
     except:
         return None
 
-    x = torch.tensor([[cat]], dtype=torch.float32)
+    x = torch.tensor([cat], dtype=torch.long)
+    diet = torch.zeros(1, DIET_AMT, dtype=torch.float32)  # neutral diet input
 
     with torch.no_grad():
-        out = model(x)
+        out = model(x, diet)
         pred = torch.argmax(out, dim=1).item()
 
     return encoder.inverse_transform([pred])[0]

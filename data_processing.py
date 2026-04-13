@@ -77,19 +77,34 @@ DIETARY_RULES = {
 
 def get_dietary_tags(ingredient: str) -> list[str]:
     ingredient = ingredient.lower().strip()
-    words = ingredient.split()
+    words = set(ingredient.split())
+
+    def contains_any(forbidden_list):
+        return any(fw in words or fw in ingredient for fw in forbidden_list)
 
     tags = []
 
-    for diet, forbidden_words in DIETARY_RULES.items():
-        if not any(fw in ingredient or fw in words for fw in forbidden_words):
-            tags.append(diet)
+    # vegan = no meat + no dairy + no animal products
+    if not (contains_any(MEAT) or contains_any(DAIRY) or contains_any(ANIMAL_PRODUCTS)):
+        tags.append("vegan")
 
-    # vegetarian = no meat only
-    if not any(fw in ingredient or fw in words for fw in MEAT):
+    # vegetarian = no meat
+    if not contains_any(MEAT):
         tags.append("vegetarian")
 
-    return list(set(tags))
+    if not contains_any(DAIRY):
+        tags.append("dairy_free")
+
+    if not contains_any(GLUTEN):
+        tags.append("gluten_free")
+
+    if not contains_any(NUTS):
+        tags.append("nut_free")
+
+    if not contains_any(HIGH_CARB):
+        tags.append("keto")
+
+    return tags
 
 # ─────────────────────────────────────────────────────────────────────────────
 # NORMALIZATION
@@ -150,7 +165,7 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
     #bad keywords
     df = df[
         ~df["substitution_clean"].str.contains(
-            r"\b(meal|food|dish|ingredient|mixture|product|crushed|whipped|bottled|prepared|instant|cooked|dry|soft|fresh|whole|chopped|ground|minced|grated|sliced|juice|water|sauce|syrup|seasoning|salt|powder|extract|crumb|broth|stock|mix|base|fryer|broiler|roaster|stewing|cut|piece|part)\b",
+            r"\b(?:meal|food|dish|ingredient|mixture|product|crushed|whipped|bottled|prepared|instant|cooked|dry|soft|fresh|whole|chopped|ground|minced|grated|sliced|juice|water|sauce|syrup|seasoning|salt|powder|extract|crumb|broth|stock|mix|base|fryer|broiler|roaster|stewing|cut|piece|part)\b",
             na=False
         )
     ]

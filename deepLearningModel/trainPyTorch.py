@@ -180,3 +180,6 @@ result = accuracy_score(secondTesting.tolist(), preds)
 
 print(f"Testing accuracy: {result: .4f}")
 print(f"Best validation result: {accuracy1: .4f}")
+
+torch.save(model.state_dict(), "model.pt")
+print("Model saved to model.pt")

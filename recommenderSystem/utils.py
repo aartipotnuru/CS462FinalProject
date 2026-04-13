@@ -5,6 +5,8 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from data_processing import normalize
+from data_processing import MEAT, DAIRY, ANIMAL_PRODUCTS, GLUTEN, NUTS, HIGH_CARB
+
 
 def load_ingredient_index(path="data/processed/ingredient_index.json"):
     with open(path) as f:
@@ -101,10 +103,24 @@ def filter_by_diet(candidates, restriction):
     return filtered
 
 def already_satisfies(ingredient, restriction, index):
-    if ingredient not in index:
-        return False
+    ingredient = ingredient.lower()
 
-    entries = index[ingredient]
-    diets = entries[0].get("ingredient_diets", [])
+    if restriction == "vegetarian":
+        return not any(m in ingredient for m in MEAT)
 
-    return restriction in diets
+    if restriction == "vegan":
+        return not any(m in ingredient for m in (MEAT + DAIRY + ANIMAL_PRODUCTS))
+
+    if restriction == "dairy_free":
+        return not any(d in ingredient for d in DAIRY)
+
+    if restriction == "gluten_free":
+        return not any(g in ingredient for g in GLUTEN)
+
+    if restriction == "nut_free":
+        return not any(n in ingredient for n in NUTS)
+
+    if restriction == "keto":
+        return not any(c in ingredient for c in HIGH_CARB)
+
+    return True
