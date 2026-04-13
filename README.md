@@ -7,7 +7,8 @@ Approach: We will be using Python-based deep learning models such as TensorFlow 
 
 Goal: The models serve as a purpose to provide accurate alternatives for users to make cooking more accessible and convenient.
 
-Project Presentation Slides: https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing
+Project Presentation Slides: [https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing](https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing)
+Demo: https://www.youtube.com/watch?v=WcuuFNeQ1zQ
 ## Overview
 
 This project builds a recipe substitution assistant that helps users replace ingredients based on dietary restrictions like vegan, gluten-free, dairy-free, nut-free, and keto.
