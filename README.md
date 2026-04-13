@@ -78,8 +78,6 @@ This script loads:
 
 It trains a classifier over ingredient categories and prints validation/test accuracy.
 
-> Note: The current training script does not save a PyTorch model file automatically. If you want to use a trained model in the Gradio app, save it as `model.pt` in the project root or update `recommenderSystem/app_gradio.py` to load your model path.
-
 ## Step 3: Launch the Gradio app
 
 Start the recommendation interface from the project root:
