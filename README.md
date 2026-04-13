@@ -11,7 +11,7 @@ Project Presentation Slides: [https://docs.google.com/presentation/d/1VQR533iFUq
 
 Demo: https://www.youtube.com/watch?v=WcuuFNeQ1zQ
 
-Kaggle Dataset: https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data
+Kaggle Dataset: [https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data](https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data?select=substitution_pairs.json)
 
 ## Overview
 
