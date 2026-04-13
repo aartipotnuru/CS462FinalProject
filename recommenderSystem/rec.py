@@ -67,7 +67,7 @@ class Model(nn.Module):
         )
 
     def forward(self, first, second):
-        amtOne = self.embed(first.squeeze())
+        amtOne = self.embed(first.view(-1))        # shape [batch]  → [batch, embed_size]
         amtTwo = torch.cat([amtOne, second], dim=1)
         return self.layering(amtTwo)
 
@@ -92,8 +92,8 @@ def predict_category(model, encoder, ingredient):
     except:
         return None
 
-    x = torch.tensor([cat], dtype=torch.long)
-    diet = torch.zeros(1, DIET_AMT, dtype=torch.float32)  # neutral diet input
+    x = torch.tensor([cat], dtype=torch.long).unsqueeze(0)   # shape [1, 1]
+    diet = torch.zeros(1, DIET_AMT, dtype=torch.float32)
 
     with torch.no_grad():
         out = model(x, diet)

@@ -20,24 +20,30 @@ model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
 model.eval()
 
 def run(ingredients_text, restriction):
-    cleaned_text = re.sub(r'\s*\([^)]*\)', '', ingredients_text)
-    ingredients = [x.strip() for x in cleaned_text.split(",") if x.strip()]
-    if not ingredients:
-        return "Please enter at least one ingredient.", ""
+    import re
+    import traceback
+    try:
+        cleaned_text = re.sub(r'\s*\([^)]*\)', '', ingredients_text)
+        ingredients = [x.strip() for x in cleaned_text.split(",") if x.strip()]
+        if not ingredients:
+            return "Please enter at least one ingredient.", ""
 
-    new_recipe, replacements = rewrite_recipe(
-        ingredients, restriction, model, encoder, index
-    )
+        new_recipe, replacements = rewrite_recipe(
+            ingredients, restriction, model, encoder, index
+        )
 
-    if not replacements:
-        replacements_text = "No replacements needed — all ingredients already fit!"
-    else:
-        replacements_text = ""
-        for original, subs in replacements.items():
-            replacements_text += f"{original}  →  {', '.join(subs)}\n"
+        if not replacements:
+            replacements_text = "No replacements needed — all ingredients already fit!"
+        else:
+            replacements_text = ""
+            for original, subs in replacements.items():
+                replacements_text += f"{original}  →  {', '.join(subs)}\n"
 
-    new_recipe_text = ", ".join(new_recipe)
-    return replacements_text.strip(), new_recipe_text
+        new_recipe_text = ", ".join(new_recipe)
+        return replacements_text.strip(), new_recipe_text
+
+    except Exception as e:
+        return f"ERROR: {traceback.format_exc()}", ""
 
 demo = gr.Interface(
     fn=run,
