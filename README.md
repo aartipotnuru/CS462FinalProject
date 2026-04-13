@@ -10,6 +10,9 @@ Goal: The models serve as a purpose to provide accurate alternatives for users t
 Project Presentation Slides: [https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing](https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing)
 
 Demo: https://www.youtube.com/watch?v=WcuuFNeQ1zQ
+
+Kaggle Dataset: https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data
+
 ## Overview
 
 This project builds a recipe substitution assistant that helps users replace ingredients based on dietary restrictions like vegan, gluten-free, dairy-free, nut-free, and keto.
