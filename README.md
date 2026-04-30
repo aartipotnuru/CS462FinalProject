@@ -13,6 +13,8 @@ Demo: https://www.youtube.com/watch?v=WcuuFNeQ1zQ
 
 Kaggle Dataset: [https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data](https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data?select=substitution_pairs.json)
 
+Sample Test Cases: https://docs.google.com/document/d/1N6QfMj_Wbp4oyaRQCCR0tWqZ8TDtX_YCbzni8ALXeKk/edit?usp=sharing
+
 ## Overview
 
 This project builds a recipe substitution assistant that helps users replace ingredients based on dietary restrictions like vegan, gluten-free, dairy-free, nut-free, and keto.
