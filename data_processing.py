@@ -13,18 +13,15 @@ nltk.download('wordnet', quiet=True)
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-# ─────────────────────────────────────────────────────────────────────────────
-# CONFIG
-# ─────────────────────────────────────────────────────────────────────────────
+# config
+
 RAW_PATH   = Path("data/raw/substitution_pairs.json")
 OUTPUT_DIR = Path("data/processed")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 lemmatizer = WordNetLemmatizer()
 
-# -------------------------------
-# BASE GROUPS 
-# -------------------------------
+# base groups (used for dietary tagging)
 
 MEAT = [
     "chicken", "hen", "turkey", "duck",
@@ -62,9 +59,7 @@ BANNED_SUBSTITUTES = [
     "baking soda", "baking powder"
 ]
 
-# -------------------------------
-# DIETARY RULES 
-# -------------------------------
+# dietary rules (used for tagging the ingredient/substitution pairs with dietary categories)
 
 DIETARY_RULES = {
     "vegan": MEAT + DAIRY + ANIMAL_PRODUCTS,
@@ -106,9 +101,8 @@ def get_dietary_tags(ingredient: str) -> list[str]:
 
     return tags
 
-# ─────────────────────────────────────────────────────────────────────────────
-# NORMALIZATION
-# ─────────────────────────────────────────────────────────────────────────────
+# normalization (lowercasing, stripping quantities/descriptors, lemmatization)
+
 def normalize(text: str) -> str:
     """Lowercase, strip quantities/descriptors, lemmatize."""
     if not isinstance(text, str):
@@ -128,9 +122,8 @@ def normalize(text: str) -> str:
     text = ' '.join(lemmatizer.lemmatize(w) for w in text.split() if w)
     return text.strip()
 
-# ─────────────────────────────────────────────────────────────────────────────
-# LOAD
-# ─────────────────────────────────────────────────────────────────────────────
+# load
+
 def load(path: Path) -> pd.DataFrame:
     print(f"Loading {path} ...")
     with open(path) as f:
@@ -141,9 +134,8 @@ def load(path: Path) -> pd.DataFrame:
     print(f"  Raw pairs:  {len(df):,}")
     return df
 
-# ─────────────────────────────────────────────────────────────────────────────
-# PROCESS
-# ─────────────────────────────────────────────────────────────────────────────
+# process
+
 def process(df: pd.DataFrame) -> pd.DataFrame:
 
     print("\n[1/4] Normalizing ingredients...")
@@ -153,7 +145,7 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
     df = df[~df["substitution_clean"].isin(BANNED_SUBSTITUTES)]
 
 
-    # Drop anything that normalized to empty
+    # drop anything that normalized to empty
     before = len(df)
     df = df[(df["ingredient_clean"] != "") & (df["substitution_clean"] != "")]
     # Drop self-substitutions (ingredient == its own substitute after cleaning)
@@ -176,9 +168,11 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
     df["enables_diets"] = df["substitution_diets"]
 
     print("\n[3/4] Building ingredient category labels...")
-    # Simple rule-based category — useful feature for the model
+    
+    # simple rule-based category — useful feature for the model
+
     CATEGORIES = {
-        #"fat_oil":    ["butter", "oil", "lard", "ghee", "shortening", "margarine"],
+        "fat_oil":    ["butter", "oil", "lard", "ghee", "shortening", "margarine"],
         "flour":      ["flour", "starch", "cornstarch", "arrowroot", "semolina"],
         "dairy":      ["milk", "cream", "yogurt", "cheese", "buttermilk"],
         "egg":        ["egg"],
@@ -186,7 +180,7 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
         "leavening":  ["baking soda", "baking powder", "yeast"],
         "liquid":     ["water", "broth", "stock", "juice", "wine", "beer"],
         "protein":    ["chicken", "beef", "pork", "fish", "tofu", "tempeh", "seitan"],
-        #"herb_spice": ["pepper", "salt", "basil", "oregano", "thyme", "cumin"],
+        "herb_spice": ["pepper", "salt", "basil", "oregano", "thyme", "cumin"],
     }
 
     def categorize(ingredient: str) -> str:
@@ -210,9 +204,8 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-# ─────────────────────────────────────────────────────────────────────────────
-# INGREDIENT INDEX  (used by the recommender in Part 3)
-# ─────────────────────────────────────────────────────────────────────────────
+# ingredient index  (used by the recommender in Part 3)
+
 def build_ingredient_index(df: pd.DataFrame):
     """Map every ingredient → list of its substitutes with metadata."""
     index = defaultdict(list)
@@ -229,9 +222,8 @@ def build_ingredient_index(df: pd.DataFrame):
     print(f"\n  Saved ingredient_index.json — {len(index):,} ingredients")
     return index
 
-# ─────────────────────────────────────────────────────────────────────────────
-# SPLIT & SAVE
-# ─────────────────────────────────────────────────────────────────────────────
+# split & save
+
 def split_and_save(df: pd.DataFrame):
     train, temp = train_test_split(df, test_size=0.2, random_state=42)
     val, test   = train_test_split(temp, test_size=0.5, random_state=42)
@@ -264,7 +256,6 @@ def split_and_save(df: pd.DataFrame):
     for k, v in summary.items():
         print(f"    {k}: {v}")
 
-# ─────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print("=== Recipe Rewrite — Part 1: Data Processing ===\n")
 
