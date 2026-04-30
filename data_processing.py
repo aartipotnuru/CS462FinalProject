@@ -168,11 +168,10 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
     df["enables_diets"] = df["substitution_diets"]
 
     print("\n[3/4] Building ingredient category labels...")
-    
+
     # simple rule-based category — useful feature for the model
 
     CATEGORIES = {
-        "fat_oil":    ["butter", "oil", "lard", "ghee", "shortening", "margarine"],
         "flour":      ["flour", "starch", "cornstarch", "arrowroot", "semolina"],
         "dairy":      ["milk", "cream", "yogurt", "cheese", "buttermilk"],
         "egg":        ["egg"],
@@ -180,7 +179,6 @@ def process(df: pd.DataFrame) -> pd.DataFrame:
         "leavening":  ["baking soda", "baking powder", "yeast"],
         "liquid":     ["water", "broth", "stock", "juice", "wine", "beer"],
         "protein":    ["chicken", "beef", "pork", "fish", "tofu", "tempeh", "seitan"],
-        "herb_spice": ["pepper", "salt", "basil", "oregano", "thyme", "cumin"],
     }
 
     def categorize(ingredient: str) -> str:
