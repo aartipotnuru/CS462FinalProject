@@ -7,7 +7,12 @@ Approach: We will be using Python-based deep learning models such as TensorFlow 
 
 Goal: The models serve as a purpose to provide accurate alternatives for users to make cooking more accessible and convenient.
 
-Project Presentation Slides: https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing
+Project Presentation Slides: [https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing](https://docs.google.com/presentation/d/1VQR533iFUqO5bZmVxefhmozNDlNKKxLjwx0ZRuj6iJs/edit?usp=sharing)
+
+Demo: https://www.youtube.com/watch?v=WcuuFNeQ1zQ
+
+Kaggle Dataset: [https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data](https://www.kaggle.com/datasets/kanakraj/multimodal-ingredient-substitution/data?select=substitution_pairs.json)
+
 ## Overview
 
 This project builds a recipe substitution assistant that helps users replace ingredients based on dietary restrictions like vegan, gluten-free, dairy-free, nut-free, and keto.
@@ -77,8 +82,6 @@ This script loads:
 - `data/processed/test.csv`
 
 It trains a classifier over ingredient categories and prints validation/test accuracy.
-
-> Note: The current training script does not save a PyTorch model file automatically. If you want to use a trained model in the Gradio app, save it as `model.pt` in the project root or update `recommenderSystem/app_gradio.py` to load your model path.
 
 ## Step 3: Launch the Gradio app
 
